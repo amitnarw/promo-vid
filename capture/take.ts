@@ -21,6 +21,7 @@
  * Output: takes/<id>/ with <tab>/dom.jsonl, events.jsonl, ref/*.jpg, agent.jsonl, sse.jsonl, take.json
  */
 import { spawn, execSync, type ChildProcess } from "child_process";
+import { createHash } from "crypto";
 import { cpSync, existsSync, mkdirSync, mkdtempSync, rmSync, writeFileSync, appendFileSync, readFileSync, readdirSync } from "fs";
 import { createServer } from "http";
 import { homedir, tmpdir } from "os";
@@ -74,12 +75,17 @@ function launchWebMcpChrome(): ChildProcess {
   cpSync(join(PKG, "extension"), EXT, { recursive: true, force: true });
   writeFileSync(join(EXT, "env.js"), `globalThis.WEB_MCP_PORT = ${WEB_MCP_PORT};\n`);
   for (const d of [join(PROFILE, "Default", "Extensions"), join(PROFILE, "extensions_crx_cache")]) rmSync(d, { recursive: true, force: true });
-  try {
-    execSync(
-      `powershell -NoProfile -Command "Get-CimInstance Win32_Process -Filter \\"Name='chrome.exe'\\" | Where-Object { $_.CommandLine -like '*chromium-profile-v2*' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }"`,
-      { stdio: "ignore" },
-    );
-  } catch {}
+  // stop any earlier instance on this profile and wait until it has really exited,
+  // or the new process hands itself to the dying one and never opens the CDP port
+  const ps = (cmd: string) => execSync(`powershell -NoProfile -Command "${cmd}"`, { encoding: "utf8" }).trim();
+  const alive = `(Get-CimInstance Win32_Process -Filter \\"Name='chrome.exe'\\" | Where-Object { $_.CommandLine -like '*chromium-profile-v2*' })`;
+  for (let i = 0; i < 20; i++) {
+    try {
+      if (ps(`${alive}.Count`) === "0") break;
+      ps(`${alive} | ForEach-Object { Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }`);
+    } catch {}
+    execSync("powershell -NoProfile -Command Start-Sleep -Milliseconds 500");
+  }
   const args = [
     `--remote-debugging-port=${CDP_PORT}`,
     `--user-data-dir=${PROFILE}`,
@@ -148,7 +154,7 @@ const DOM_RECORDER = `(() => {
     emit(e) { e.wall = Date.now(); q.push(e); if (!timer) timer = setTimeout(flush, 100); },
     recordAfter: 'DOMContentLoaded',
     recordCanvas: true,
-    sampling: { canvas: 6, scroll: 50, input: 'last', mousemove: false },
+    sampling: { canvas: 6, scroll: 50, input: 'all', mousemove: false },
     collectFonts: true,
     inlineStylesheet: true,
     checkoutEveryNms: 10000,
@@ -160,6 +166,33 @@ const DOM_RECORDER = `(() => {
 type Tab = { dir: string; session: CDPSession; refs: number; timer?: NodeJS.Timeout };
 const tabs = new Map<string, Tab>();
 
+// Keep the bytes of every image, font and stylesheet the live page actually
+// loaded, so replays show exactly what was on screen without refetching.
+const NET = join(OUT, "net");
+const netSaved = new Set<string>();
+async function captureNetwork(session: CDPSession) {
+  mkdirSync(NET, { recursive: true });
+  const pending = new Map<string, { url: string; type: string; mime: string }>();
+  await session.send("Network.enable", { maxResourceBufferSize: 30e6, maxTotalBufferSize: 200e6 });
+  session.on("Network.responseReceived", (e) => {
+    if (["Image", "Font", "Stylesheet", "Media"].includes(e.type) && /^https?:/.test(e.response.url)) pending.set(e.requestId, { url: e.response.url, type: e.type, mime: e.response.mimeType });
+  });
+  session.on("Network.loadingFinished", async (e) => {
+    const r = pending.get(e.requestId);
+    pending.delete(e.requestId);
+    if (!r || netSaved.has(r.url) || e.encodedDataLength > 15e6) return;
+    netSaved.add(r.url);
+    try {
+      const body = await session.send("Network.getResponseBody", { requestId: e.requestId });
+      const file = createHash("sha1").update(r.url).digest("hex").slice(0, 16);
+      writeFileSync(join(NET, file), Buffer.from(body.body, body.base64Encoded ? "base64" : "utf8"));
+      appendFileSync(join(OUT, "net.jsonl"), JSON.stringify({ url: r.url, file, mime: r.mime, type: r.type, t: Date.now() }) + "\n");
+    } catch {
+      netSaved.delete(r.url);
+    }
+  });
+}
+
 async function recordTab(target: Target, name: string, opts: { width: number; height: number; instrument: boolean; reference: boolean }) {
   const short = (target as unknown as { _targetId: string })._targetId.slice(0, 8);
   const dir = join(OUT, `${name}-${short}`);
@@ -170,8 +203,11 @@ async function recordTab(target: Target, name: string, opts: { width: number; he
   // portrait layout; DPR stays native because sharpness now comes from the DOM replay
   const metrics = { width: opts.width, height: opts.height, deviceScaleFactor: 0, mobile: false };
   await session.send("Emulation.setDeviceMetricsOverride", metrics);
+  // light scheme, so pages render the same live and in the (light-default) replay browser
+  await session.send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-color-scheme", value: "light" }] });
   await session.send("Runtime.enable");
   await session.send("Page.enable");
+  await captureNetwork(session);
   await session.send("Runtime.addBinding", { name: "__promoRrweb" });
   const chunks = new Map<string, string[]>();
   session.on("Runtime.bindingCalled", (e) => {
@@ -340,7 +376,7 @@ async function main() {
   try { rmSync(panelDir, { recursive: true, force: true }); } catch {}
 
   const summary = {
-    id, prompt, model: model ?? "default", viewport: { w: VW, h: VH }, panel: { w: PANEL_W, h: VH },
+    id, prompt, model: model ?? "default", viewport: { w: VW, h: VH }, panel: { w: PANEL_W, h: VH }, colorScheme: "light",
     started, ended: Date.now(), agentExit: code,
     tabs: [...tabs.entries()].map(([k, t]) => {
       const dom = join(t.dir, "dom.jsonl");

@@ -5,3 +5,5 @@ out/
 *.log
 public/takes/
 capture/cdm-pin/node_modules/
+audio/music-candidates/
+audio/voice-candidates/
