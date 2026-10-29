@@ -105,7 +105,7 @@ for (const t of picks) {
   await pair.setViewport({ width: 1800, height: 1200, deviceScaleFactor: 1 });
   await pair.setContent(`<body style="margin:0;background:#222;display:flex;gap:16px;padding:8px">
     <figure style="margin:0;color:#fff;font:14px sans-serif"><img src="data:image/jpeg;base64,${ref}" style="height:1150px"><figcaption>live reference</figcaption></figure>
-    <figure style="margin:0;color:#fff;font:14px sans-serif"><img src="data:image/jpeg;base64,${shot.toString("base64")}" style="height:1150px"><figcaption>DOM replay @${dpr}x</figcaption></figure></body>`);
+    <figure style="margin:0;color:#fff;font:14px sans-serif"><img src="data:image/jpeg;base64,${Buffer.from(shot).toString("base64")}" style="height:1150px"><figcaption>DOM replay @${dpr}x</figcaption></figure></body>`);
   await wait(300);
   writeFileSync(join(out, `${t}-pair.jpg`), await pair.screenshot({ type: "jpeg", quality: 80 }));
   await pair.close();

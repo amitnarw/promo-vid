@@ -4,7 +4,7 @@
     "module": "Preserve",
     "moduleResolution": "Bundler",
     "jsx": "react-jsx",
-    "types": ["web", "node"],
+    "types": ["node"],
     "strict": true,
     "noEmit": true,
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
@@ -18,5 +18,5 @@
       "@/*": ["./src/*"]
     }
   },
-  "exclude": ["remotion.config.ts", "output", "out", "public"]
+  "exclude": ["remotion.config.ts", "output", "out", "public", "capture/probes"]
 }

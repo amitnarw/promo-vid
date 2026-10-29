@@ -38,9 +38,9 @@ const fragment = /* glsl */ `
     col += uRim * under * 0.22;
     // soft window highlight (broad lobe) + small hot specular
     vec3 h = normalize(key + v);
-    float broad = pow(max(dot(n, h), 0.0), 18.0);
-    float hot = pow(max(dot(n, h), 0.0), 220.0);
-    col += vec3(0.75, 0.85, 1.0) * broad * 0.38 + vec3(1.0) * hot * 0.9;
+    float broad = pow(max(dot(n, h), 0.0), 14.0);
+    float hot = pow(max(dot(n, h), 0.0), 600.0);
+    col += vec3(0.72, 0.84, 1.0) * broad * 0.42 + vec3(0.9, 0.95, 1.0) * hot * 0.32;
     // thin cool rim
     float fres = pow(1.0 - max(dot(n, v), 0.0), 4.0);
     col += uRim * fres * 0.55;

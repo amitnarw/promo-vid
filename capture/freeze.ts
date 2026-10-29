@@ -47,7 +47,8 @@ const swapCss = (css: string, base: string) => css.replace(CSS_URL, (whole, q, u
 for (const n of net) {
   const name = local.get(n.url)!;
   const src = join(TAKE, "net", n.file);
-  if (n.mime === "text/css") writeFileSync(join(ASSETS, name), swapCss(readFileSync(src, "utf8"), n.url));
+  // inside a saved stylesheet, plain file names: its fonts and images sit beside it
+  if (n.mime === "text/css") writeFileSync(join(ASSETS, name), swapCss(readFileSync(src, "utf8"), n.url).replaceAll("promo-asset://", ""));
   else copyFileSync(src, join(ASSETS, name));
 }
 
