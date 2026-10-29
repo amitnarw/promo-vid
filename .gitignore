@@ -1,0 +1,7 @@
+node_modules/
+takes/
+out/
+.cache/
+*.log
+public/takes/
+capture/cdm-pin/node_modules/

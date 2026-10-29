@@ -1,0 +1,6 @@
+{
+  "name": "web-mcp-cdm-pin",
+  "private": true,
+  "description": "Gives web-mcp's `npx chrome-devtools-mcp` the last version it is compatible with (1.7.0; 1.8.0+ requires pageId by default)",
+  "dependencies": { "chrome-devtools-mcp": "1.7.0" }
+}

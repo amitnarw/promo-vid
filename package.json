@@ -1,0 +1,44 @@
+{
+  "name": "web-mcp-promo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Launch film for @amitnarw/web-mcp, built from real captured runs",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render",
+    "still": "remotion still",
+    "typecheck": "tsc",
+    "take": "tsx capture/take.ts"
+  },
+  "dependencies": {
+    "@fontsource/geist-mono": "^5.2.5",
+    "@fontsource/geist-sans": "^5.2.5",
+    "@fontsource/inter": "^5.2.8",
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.2.0",
+    "@react-three/postprocessing": "3.0.4",
+    "@remotion/cli": "4.0.536",
+    "@remotion/fonts": "4.0.536",
+    "@remotion/media": "4.0.536",
+    "@remotion/media-utils": "4.0.536",
+    "@remotion/openai-whisper": "4.0.536",
+    "@remotion/renderer": "4.0.536",
+    "@remotion/three": "4.0.536",
+    "postprocessing": "6.39.5",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.536",
+    "rrweb": "2.1.7",
+    "three": "0.178.0",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "19.2.7",
+    "@types/three": "0.170.0",
+    "puppeteer-core": "^25.1.0",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}
