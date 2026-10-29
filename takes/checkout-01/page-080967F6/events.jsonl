@@ -1,0 +1,133 @@
+{"k":"ctx","title":"","vis":"visible","t":1793257937860,"url":"about:blank"}
+{"k":"vis","v":"hidden","t":1793257945556,"url":"about:blank"}
+{"k":"vis","v":"visible","t":1793257947140,"url":"about:blank"}
+{"k":"nav","t":1793257960522,"url":"https://www.saucedemo.com/"}
+{"k":"ctx","title":"","vis":"visible","t":1793257960583,"url":"https://www.saucedemo.com/"}
+{"k":"ctx","title":"","vis":"visible","t":1793257960790,"url":"about:blank"}
+{"k":"vis","v":"hidden","t":1793257960792,"url":"about:blank"}
+{"k":"ctx","title":"","vis":"visible","t":1793257960812,"url":"about:blank"}
+{"k":"vis","v":"hidden","t":1793257960817,"url":"about:blank"}
+{"k":"down","x":480,"y":173,"r":[334,154,292,38],"tag":"INPUT","label":"Username","t":1793257966672,"url":"https://www.saucedemo.com/"}
+{"k":"focus","r":[334,154,292,38],"tag":"INPUT","label":"Username","t":1793257966672,"url":"https://www.saucedemo.com/"}
+{"k":"click","x":480,"y":173,"r":[334,154,292,38],"tag":"INPUT","label":"Username","t":1793257966674,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":0,"t":1793257967253,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967766,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":1,"t":1793257967769,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967778,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":2,"t":1793257967781,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967789,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":3,"t":1793257967790,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967797,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":4,"t":1793257967799,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967803,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":5,"t":1793257967805,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967811,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":6,"t":1793257967814,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967825,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":7,"t":1793257967827,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967833,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":8,"t":1793257967835,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967839,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":9,"t":1793257967840,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967845,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":10,"t":1793257967847,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967854,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":11,"t":1793257967855,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967860,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":12,"t":1793257967861,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257967869,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,154,292,38],"len":13,"t":1793257967869,"url":"https://www.saucedemo.com/"}
+{"k":"down","x":480,"y":226.40000915527344,"r":[334,207,292,38],"tag":"INPUT","label":"Password","t":1793257968695,"url":"https://www.saucedemo.com/"}
+{"k":"focus","r":[334,207,292,38],"tag":"INPUT","label":"Password","t":1793257968697,"url":"https://www.saucedemo.com/"}
+{"k":"click","x":480,"y":226,"r":[334,207,292,38],"tag":"INPUT","label":"Password","t":1793257968700,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":0,"t":1793257969204,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969760,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":1,"t":1793257969762,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969774,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":2,"t":1793257969775,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969781,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":3,"t":1793257969783,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969790,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":4,"t":1793257969791,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969797,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":5,"t":1793257969798,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969803,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":6,"t":1793257969803,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969808,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":7,"t":1793257969808,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969812,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":8,"t":1793257969813,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969817,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":9,"t":1793257969818,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969821,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":10,"t":1793257969822,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969827,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":11,"t":1793257969827,"url":"https://www.saucedemo.com/"}
+{"k":"key","key":"char","t":1793257969831,"url":"https://www.saucedemo.com/"}
+{"k":"input","r":[334,207,292,38],"len":12,"t":1793257969832,"url":"https://www.saucedemo.com/"}
+{"k":"down","x":480,"y":325,"r":[334,301,292,49],"tag":"INPUT","label":"login-button","t":1793257973193,"url":"https://www.saucedemo.com/"}
+{"k":"focus","r":[334,301,292,49],"tag":"INPUT","label":"login-button","t":1793257973194,"url":"https://www.saucedemo.com/"}
+{"k":"click","x":480,"y":325,"r":[334,301,292,49],"tag":"INPUT","label":"login-button","t":1793257973195,"url":"https://www.saucedemo.com/"}
+{"k":"down","x":608.6000366210938,"y":184.40000915527344,"r":[322,174,573,20],"tag":"DIV","label":"Sauce Labs Backpack","t":1793257996291,"url":"https://www.saucedemo.com/inventory.html"}
+{"k":"focus","r":[322,174,573,20],"tag":"A","label":"View details for Sauce Labs Backpack","t":1793257996292,"url":"https://www.saucedemo.com/inventory.html"}
+{"k":"click","x":608,"y":184,"r":[322,174,573,20],"tag":"DIV","label":"Sauce Labs Backpack","t":1793257996292,"url":"https://www.saucedemo.com/inventory.html"}
+{"k":"down","x":471.1625061035156,"y":396.1999816894531,"r":[391,379,160,34],"tag":"BUTTON","label":"add-to-cart","t":1793257999507,"url":"https://www.saucedemo.com/inventory-item.html?id=4"}
+{"k":"focus","r":[391,379,160,34],"tag":"BUTTON","label":"add-to-cart","t":1793257999508,"url":"https://www.saucedemo.com/inventory-item.html?id=4"}
+{"k":"click","x":471,"y":396,"r":[391,379,160,34],"tag":"BUTTON","label":"add-to-cart","t":1793257999508,"url":"https://www.saucedemo.com/inventory-item.html?id=4"}
+{"k":"down","x":920,"y":30,"r":[900,10,40,40],"tag":"A","label":"Cart, 1 items","t":1793258003018,"url":"https://www.saucedemo.com/inventory-item.html?id=4"}
+{"k":"click","x":920,"y":30,"r":[900,10,40,40],"tag":"A","label":"Cart, 1 items","t":1793258003019,"url":"https://www.saucedemo.com/inventory-item.html?id=4"}
+{"k":"down","x":835,"y":427.8000183105469,"r":[725,411,220,34],"tag":"BUTTON","label":"checkout","t":1793258006831,"url":"https://www.saucedemo.com/cart.html"}
+{"k":"focus","r":[725,411,220,34],"tag":"BUTTON","label":"checkout","t":1793258006831,"url":"https://www.saucedemo.com/cart.html"}
+{"k":"click","x":835,"y":427,"r":[725,411,220,34],"tag":"BUTTON","label":"checkout","t":1793258006832,"url":"https://www.saucedemo.com/cart.html"}
+{"k":"down","x":480,"y":273.6000061035156,"r":[290,254,380,38],"tag":"INPUT","label":"First Name","t":1793258010648,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"focus","r":[290,254,380,38],"tag":"INPUT","label":"First Name","t":1793258010650,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"click","x":480,"y":273,"r":[290,254,380,38],"tag":"INPUT","label":"First Name","t":1793258010655,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,254,380,38],"len":0,"t":1793258011221,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258011820,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,254,380,38],"len":1,"t":1793258011825,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258011852,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,254,380,38],"len":2,"t":1793258011855,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258011890,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,254,380,38],"len":3,"t":1793258011893,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258011917,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,254,380,38],"len":4,"t":1793258011920,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"down","x":480,"y":327.0000305175781,"r":[290,308,380,38],"tag":"INPUT","label":"Last Name","t":1793258012812,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"focus","r":[290,308,380,38],"tag":"INPUT","label":"Last Name","t":1793258012813,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"click","x":480,"y":327,"r":[290,308,380,38],"tag":"INPUT","label":"Last Name","t":1793258012815,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,308,380,38],"len":0,"t":1793258013339,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258013799,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,308,380,38],"len":1,"t":1793258013801,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258013814,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,308,380,38],"len":2,"t":1793258013818,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258013832,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,308,380,38],"len":3,"t":1793258013834,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258013848,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,308,380,38],"len":4,"t":1793258013851,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258013862,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,308,380,38],"len":5,"t":1793258013863,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258013879,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,308,380,38],"len":6,"t":1793258013881,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258013897,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,308,380,38],"len":7,"t":1793258013898,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258013913,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,308,380,38],"len":8,"t":1793258013915,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"down","x":480,"y":380.4000244140625,"r":[290,361,380,38],"tag":"INPUT","label":"Zip/Postal Code","t":1793258014774,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"focus","r":[290,361,380,38],"tag":"INPUT","label":"Zip/Postal Code","t":1793258014775,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"click","x":480,"y":380,"r":[290,361,380,38],"tag":"INPUT","label":"Zip/Postal Code","t":1793258014777,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,361,380,38],"len":0,"t":1793258015298,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258015893,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,361,380,38],"len":1,"t":1793258015894,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258015911,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,361,380,38],"len":2,"t":1793258015913,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258015928,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,361,380,38],"len":3,"t":1793258015929,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258015950,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,361,380,38],"len":4,"t":1793258015952,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"key","key":"char","t":1793258015963,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"input","r":[290,361,380,38],"len":5,"t":1793258015965,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"down","x":835,"y":616.6000366210938,"r":[725,596,220,41],"tag":"INPUT","label":"continue","t":1793258018244,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"focus","r":[725,596,220,41],"tag":"INPUT","label":"continue","t":1793258018245,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"click","x":835,"y":616,"r":[725,596,220,41],"tag":"INPUT","label":"continue","t":1793258018246,"url":"https://www.saucedemo.com/checkout-step-one.html"}
+{"k":"down","x":835,"y":697.7999877929688,"r":[725,681,220,34],"tag":"BUTTON","label":"finish","t":1793258022235,"url":"https://www.saucedemo.com/checkout-step-two.html"}
+{"k":"focus","r":[725,681,220,34],"tag":"BUTTON","label":"finish","t":1793258022236,"url":"https://www.saucedemo.com/checkout-step-two.html"}
+{"k":"click","x":835,"y":697,"r":[725,681,220,34],"tag":"BUTTON","label":"finish","t":1793258022236,"url":"https://www.saucedemo.com/checkout-step-two.html"}

@@ -1,0 +1,34 @@
+{
+  "id": "form-01",
+  "prompt": "Go to https://www.selenium.dev/selenium/web/web-form.html, fill in the form with some sample data, and submit it.",
+  "model": "default",
+  "viewport": {
+    "w": 960,
+    "h": 1280
+  },
+  "panel": {
+    "w": 420,
+    "h": 1280
+  },
+  "colorScheme": "light",
+  "started": 1793258151375,
+  "ended": 1793258229396,
+  "agentExit": 0,
+  "tabs": [
+    {
+      "id": "6581D2AE",
+      "dir": "page-6581D2AE",
+      "domEvents": 271,
+      "refs": 67
+    },
+    {
+      "id": "6C125B42",
+      "dir": "panel-6C125B42",
+      "domEvents": 30,
+      "refs": 61
+    }
+  ],
+  "webMcpSessions": [
+    "session-2026-10-29T07-16-07-094Z"
+  ]
+}

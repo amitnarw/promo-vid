@@ -1,0 +1,19 @@
+{"t":1793258403769,"cmd":"npm install -g @amitnarw/web-mcp","stream":"start","text":"npm install -g @amitnarw/web-mcp"}
+{"t":1793258454642,"cmd":"npm install -g @amitnarw/web-mcp","stream":"out","text":"\nadded 2 packages, and changed 183 packages in 50s\n"}
+{"t":1793258454642,"cmd":"npm install -g @amitnarw/web-mcp","stream":"out","text":"\n50 packages are looking for funding\n  run `npm fund` for details\n"}
+{"t":1793258454686,"cmd":"npm install -g @amitnarw/web-mcp","stream":"exit","text":"0"}
+{"t":1793258454686,"cmd":"web-mcp --version","stream":"start","text":"web-mcp --version"}
+{"t":1793258454799,"cmd":"web-mcp --version","stream":"out","text":"Web MCP v0.1.6\n"}
+{"t":1793258454809,"cmd":"web-mcp --version","stream":"exit","text":"0"}
+{"t":1793258454809,"cmd":"web-mcp help","stream":"start","text":"web-mcp help"}
+{"t":1793258454924,"cmd":"web-mcp help","stream":"out","text":"\n"}
+{"t":1793258454925,"cmd":"web-mcp help","stream":"out","text":"\u001b[1mWeb MCP - In-Browser Copilot\u001b[0m\n"}
+{"t":1793258454925,"cmd":"web-mcp help","stream":"out","text":"\nUsage:\n  web-mcp          Open the interactive dashboard\n"}
+{"t":1793258454925,"cmd":"web-mcp help","stream":"out","text":"  web-mcp mcp      Run MCP server (used automatically by AI clients)\n"}
+{"t":1793258454925,"cmd":"web-mcp help","stream":"out","text":"  web-mcp setup    Configure AI Client (Setup) or Uninstall\n"}
+{"t":1793258454925,"cmd":"web-mcp help","stream":"out","text":"  web-mcp browser  Launch the isolated Chromium browser manually\n"}
+{"t":1793258454925,"cmd":"web-mcp help","stream":"out","text":"  web-mcp troubleshoot  Troubleshoot and fix environment issues\n"}
+{"t":1793258454925,"cmd":"web-mcp help","stream":"out","text":"  web-mcp test     Test Setup & Configurations\n"}
+{"t":1793258454925,"cmd":"web-mcp help","stream":"out","text":"  web-mcp status   Check Server & Chromium Status\n  web-mcp stop     Stop Server & Chromium\n  web-mcp help     Show this help menu\n"}
+{"t":1793258454925,"cmd":"web-mcp help","stream":"out","text":"  web-mcp about    About Web MCP\n\n"}
+{"t":1793258454937,"cmd":"web-mcp help","stream":"exit","text":"0"}

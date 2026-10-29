@@ -1,11 +1,5 @@
 node_modules/
-takes/
-out/
+
 .cache/
 *.log
-public/takes/
-capture/cdm-pin/node_modules/
-audio/music-candidates/
-audio/voice-candidates/
-deliver/*.mp4
-deliver/*.jpg
+

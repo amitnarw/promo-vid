@@ -1,0 +1,69 @@
+{
+  "id": "status-01",
+  "tabs": {
+    "page-6402F78E": {
+      "events": 40,
+      "start": 1793258332086,
+      "end": 1793258390000,
+      "pages": [
+        {
+          "t": 1793258332086,
+          "href": "about:blank",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258365453,
+          "href": "https://www.githubstatus.com/",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258377694,
+          "href": "https://www.githubstatus.com/",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258389802,
+          "href": "https://www.githubstatus.com/",
+          "w": 960,
+          "h": 1280
+        }
+      ]
+    },
+    "panel-EE6310AF": {
+      "events": 17,
+      "start": 1793258333223,
+      "end": 1793258389784,
+      "pages": [
+        {
+          "t": 1793258333223,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258356085,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258372408,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258384490,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        }
+      ]
+    }
+  },
+  "assetsLoaded": 21,
+  "assetsReferenced": 17
+}

@@ -1,0 +1,337 @@
+{
+ "id": "stats-01",
+ "prompt": "How popular is the @amitnarw/web-mcp package? Check its weekly downloads on npmjs.com and its stars on its GitHub page.",
+ "viewport": {
+  "w": 960,
+  "h": 1280
+ },
+ "panel": {
+  "w": 420,
+  "h": 1280
+ },
+ "tabs": {
+  "page-B6B35F07": {
+   "start": 1793258081719,
+   "pages": [
+    {
+     "href": "about:blank",
+     "shown": 1793258081769
+    },
+    {
+     "href": "https://www.npmjs.com/package/@amitnarw/web-mcp",
+     "shown": 1793258105523
+    },
+    {
+     "href": "https://github.com/amitnarw/web-mcp/tree/main/docs",
+     "shown": 1793258126809
+    }
+   ]
+  },
+  "panel-B6FA9A56": {
+   "start": 1793258082736,
+   "pages": [
+    {
+     "href": "http://127.0.0.1:3091/sidepanel.html",
+     "shown": 1793258082802
+    }
+   ]
+  }
+ },
+ "touches": [
+  {
+   "tab": "page-B6B35F07",
+   "k": "nav",
+   "t": 1793258104239,
+   "url": "https://www.npmjs.com/package/@amitnarw/web-mcp"
+  },
+  {
+   "tab": "page-B6B35F07",
+   "k": "scroll",
+   "y": 2498,
+   "t": 1793258123072,
+   "url": "https://www.npmjs.com/package/@amitnarw/web-mcp"
+  },
+  {
+   "tab": "page-B6B35F07",
+   "k": "down",
+   "x": 253.56875610351562,
+   "y": 639.612548828125,
+   "r": [
+    36,
+    628,
+    435,
+    22
+   ],
+   "tag": "A",
+   "label": "https://github.com/amitnarw/web-mcp/tree/main/docs",
+   "t": 1793258123190,
+   "url": "https://www.npmjs.com/package/@amitnarw/web-mcp"
+  },
+  {
+   "tab": "page-B6B35F07",
+   "k": "focus",
+   "r": [
+    36,
+    628,
+    435,
+    22
+   ],
+   "tag": "A",
+   "label": "https://github.com/amitnarw/web-mcp/tree/main/docs",
+   "t": 1793258123196,
+   "url": "https://www.npmjs.com/package/@amitnarw/web-mcp"
+  },
+  {
+   "tab": "page-B6B35F07",
+   "k": "click",
+   "x": 253,
+   "y": 639,
+   "r": [
+    36,
+    628,
+    435,
+    22
+   ],
+   "tag": "A",
+   "label": "https://github.com/amitnarw/web-mcp/tree/main/docs",
+   "t": 1793258123200,
+   "url": "https://www.npmjs.com/package/@amitnarw/web-mcp"
+  },
+  {
+   "tab": "page-B6B35F07",
+   "k": "nav",
+   "t": 1793258124348,
+   "url": "https://github.com/amitnarw/web-mcp/tree/main/docs"
+  },
+  {
+   "tab": "page-B6B35F07",
+   "k": "down",
+   "x": 135.875,
+   "y": 84,
+   "r": [
+    106,
+    72,
+    59,
+    24
+   ],
+   "tag": "SPAN",
+   "label": "web-mcp",
+   "t": 1793258130267,
+   "url": "https://github.com/amitnarw/web-mcp/tree/main/docs"
+  },
+  {
+   "tab": "page-B6B35F07",
+   "k": "focus",
+   "r": [
+    100,
+    68,
+    71,
+    32
+   ],
+   "tag": "A",
+   "label": "web-mcp",
+   "t": 1793258130299,
+   "url": "https://github.com/amitnarw/web-mcp/tree/main/docs"
+  },
+  {
+   "tab": "page-B6B35F07",
+   "k": "click",
+   "x": 135,
+   "y": 84,
+   "r": [
+    106,
+    72,
+    59,
+    24
+   ],
+   "tag": "SPAN",
+   "label": "web-mcp",
+   "t": 1793258130308,
+   "url": "https://github.com/amitnarw/web-mcp/tree/main/docs"
+  },
+  {
+   "tab": "page-B6B35F07",
+   "k": "click",
+   "x": 0,
+   "y": 0,
+   "r": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "tag": "A",
+   "label": "",
+   "t": 1793258130330,
+   "url": "https://github.com/amitnarw/web-mcp/tree/main/docs"
+  }
+ ],
+ "tools": [
+  {
+   "t": 1793258090162,
+   "name": "ToolSearch",
+   "input": {
+    "query": "select:mcp__web-mcp__browser_start,mcp__web-mcp__browser_navigate,mcp__web-mcp__browser_snapshot,mcp__web-mcp__browser_screenshot,mcp__web-mcp__browser_get_status,mcp__web-mcp__browser_stop,mcp__web-mcp__browser_done",
+    "max_results": 7
+   }
+  },
+  {
+   "t": 1793258098695,
+   "name": "browser_navigate",
+   "input": {
+    "url": "https://www.npmjs.com/package/@amitnarw/web-mcp"
+   }
+  },
+  {
+   "t": 1793258108268,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258113320,
+   "name": "ToolSearch",
+   "input": {
+    "query": "select:mcp__web-mcp__browser_wait,mcp__web-mcp__browser_click",
+    "max_results": 2
+   }
+  },
+  {
+   "t": 1793258116527,
+   "name": "browser_wait",
+   "input": {
+    "time": 2500
+   }
+  },
+  {
+   "t": 1793258116595,
+   "name": "browser_screenshot",
+   "input": {}
+  },
+  {
+   "t": 1793258122499,
+   "name": "browser_click",
+   "input": {
+    "uid": "1_102"
+   }
+  },
+  {
+   "t": 1793258127176,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258129758,
+   "name": "browser_click",
+   "input": {
+    "uid": "2_13"
+   }
+  },
+  {
+   "t": 1793258132831,
+   "name": "browser_wait",
+   "input": {
+    "time": 2000
+   }
+  },
+  {
+   "t": 1793258132849,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258136369,
+   "name": "browser_done",
+   "input": {}
+  }
+ ],
+ "says": [
+  {
+   "t": 1793258122284,
+   "text": "npm shows **17** weekly downloads. Next, the GitHub repo for the star count."
+  },
+  {
+   "t": 1793258129542,
+   "text": "Now going to the repo's main page, where the star count is shown."
+  },
+  {
+   "t": 1793258142557,
+   "text": "@amitnarw/web-mcp has very little use so far.\n\n| Metric | Value | Source |\n|---|---|---|\n| Weekly downloads | **17** | npmjs.com |\n| GitHub stars | **0** | github.com/amitnarw/web-mcp |\n| GitHub forks / watchers | 0 / 0 | GitHub |\n| Packages that depend on it | 0 | npm |\n\n**Other details:**\n- **Version:** 0.1.6, published 4 months ago. There have been 7 versions in total.\n- **Download trend:** The npm download chart had one short spike, then dropped back to the current low level.\n- **Repository:** The npm page has no repository link. I found the GitHub repo through a docs link in the README. It has 23 commits from 2 contributors and no releases. The last commit was 3 months ago.\n- **Source code:** The `main` branch holds only docs. A commit message says it was made \"docs-only,\" so the source code isn't public there.\n- **License:** npm lists none, which matters if you plan to use or redistribute it.\n\nThis is the same browser tool I used to look these numbers up."
+  }
+ ],
+ "result": {
+  "t": 1793258142571,
+  "text": "@amitnarw/web-mcp has very little use so far.\n\n| Metric | Value | Source |\n|---|---|---|\n| Weekly downloads | **17** | npmjs.com |\n| GitHub stars | **0** | github.com/amitnarw/web-mcp |\n| GitHub forks / watchers | 0 / 0 | GitHub |\n| Packages that depend on it | 0 | npm |\n\n**Other details:**\n- **Version:** 0.1.6, published 4 months ago. There have been 7 versions in total.\n- **Download trend:** The npm download chart had one short spike, then dropped back to the current low level.\n- **Repository:** The npm page has no repository link. I found the GitHub repo through a docs link in the README. It has 23 commits from 2 contributors and no releases. The last commit was 3 months ago.\n- **Source code:** The `main` branch holds only docs. A commit message says it was made \"docs-only,\" so the source code isn't public there.\n- **License:** npm lists none, which matters if you plan to use or redistribute it.\n\nThis is the same browser tool I used to look these numbers up."
+ },
+ "sidebar": [
+  {
+   "t": 1793258100443,
+   "active": false,
+   "task": "",
+   "last": null,
+   "count": 0
+  },
+  {
+   "t": 1793258100474,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Starting task: AI Browser Task",
+   "count": 1
+  },
+  {
+   "t": 1793258102401,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Navigating to https://www.npmjs.com/package/@amitnarw/web-mcp",
+   "count": 2
+  },
+  {
+   "t": 1793258108293,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 3
+  },
+  {
+   "t": 1793258119119,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Taking screenshot",
+   "count": 4
+  },
+  {
+   "t": 1793258122552,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (1_102)",
+   "count": 5
+  },
+  {
+   "t": 1793258127256,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 6
+  },
+  {
+   "t": 1793258129860,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (2_13)",
+   "count": 7
+  },
+  {
+   "t": 1793258134971,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 8
+  },
+  {
+   "t": 1793258136390,
+   "active": false,
+   "task": "",
+   "last": null,
+   "count": 0
+  }
+ ]
+}

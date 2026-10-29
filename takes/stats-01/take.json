@@ -1,0 +1,34 @@
+{
+  "id": "stats-01",
+  "prompt": "How popular is the @amitnarw/web-mcp package? Check its weekly downloads on npmjs.com and its stars on its GitHub page.",
+  "model": "default",
+  "viewport": {
+    "w": 960,
+    "h": 1280
+  },
+  "panel": {
+    "w": 420,
+    "h": 1280
+  },
+  "colorScheme": "light",
+  "started": 1793258078319,
+  "ended": 1793258147388,
+  "agentExit": 0,
+  "tabs": [
+    {
+      "id": "B6B35F07",
+      "dir": "page-B6B35F07",
+      "domEvents": 121,
+      "refs": 52
+    },
+    {
+      "id": "B6FA9A56",
+      "dir": "panel-B6FA9A56",
+      "domEvents": 18,
+      "refs": 48
+    }
+  ],
+  "webMcpSessions": [
+    "session-2026-10-29T07-15-00-470Z"
+  ]
+}

@@ -1,0 +1,611 @@
+{
+ "id": "spike-wiki-06",
+ "prompt": "Go to wikipedia.org, search for the Eiffel Tower and tell me how tall it is.",
+ "viewport": {
+  "w": 960,
+  "h": 1280
+ },
+ "panel": {
+  "w": 420,
+  "h": 1280
+ },
+ "tabs": {
+  "page-96CBCD9F": {
+   "start": 1793255338710,
+   "pages": [
+    {
+     "href": "about:blank",
+     "shown": 1793255338829
+    },
+    {
+     "href": "https://www.wikipedia.org/",
+     "shown": 1793255368860
+    },
+    {
+     "href": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+     "shown": 1793255384940
+    }
+   ]
+  },
+  "panel-277FCCF4": {
+   "start": 1793255342724,
+   "pages": [
+    {
+     "href": "about:blank",
+     "shown": 1793255342795
+    },
+    {
+     "href": "http://127.0.0.1:3091/sidepanel.html",
+     "shown": 1793255344592
+    }
+   ]
+  }
+ },
+ "touches": [
+  {
+   "tab": "page-96CBCD9F",
+   "k": "nav",
+   "t": 1793255367923,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "focus",
+   "r": [
+    283,
+    472,
+    394,
+    44
+   ],
+   "tag": "INPUT",
+   "label": "search",
+   "t": 1793255368219,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "down",
+   "x": 452.20001220703125,
+   "y": 494.0500183105469,
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "tag": "INPUT",
+   "label": "search",
+   "t": 1793255372497,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "click",
+   "x": 452,
+   "y": 494,
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "tag": "INPUT",
+   "label": "search",
+   "t": 1793255372499,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 0,
+   "t": 1793255373112,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255373803,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 1,
+   "t": 1793255373809,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255373831,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 2,
+   "t": 1793255373837,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255373855,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 3,
+   "t": 1793255373858,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255373899,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 4,
+   "t": 1793255373904,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255373988,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 5,
+   "t": 1793255373991,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255374018,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 6,
+   "t": 1793255374023,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255374060,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 7,
+   "t": 1793255374062,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255374120,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 8,
+   "t": 1793255374124,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255374143,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 9,
+   "t": 1793255374147,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255374177,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 10,
+   "t": 1793255374179,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255374257,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 11,
+   "t": 1793255374259,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "char",
+   "t": 1793255374350,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "input",
+   "r": [
+    255,
+    472,
+    394,
+    44
+   ],
+   "len": 12,
+   "t": 1793255374354,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "key",
+   "key": "Enter",
+   "t": 1793255375390,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "click",
+   "x": 0,
+   "y": 0,
+   "r": [
+    649,
+    472,
+    56,
+    44
+   ],
+   "tag": "BUTTON",
+   "label": "Search",
+   "t": 1793255375392,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "down",
+   "x": 452.20001220703125,
+   "y": 551.0499877929688,
+   "r": [
+    341,
+    553,
+    298,
+    14
+   ],
+   "tag": "P",
+   "label": "Tower in Paris, France",
+   "t": 1793255383251,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "focus",
+   "r": [
+    256,
+    516,
+    393,
+    70
+   ],
+   "tag": "A",
+   "label": "Eiffel Tower\n\nTower in Paris, France",
+   "t": 1793255383253,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "click",
+   "x": 452,
+   "y": 551,
+   "r": [
+    341,
+    553,
+    298,
+    14
+   ],
+   "tag": "P",
+   "label": "Tower in Paris, France",
+   "t": 1793255383254,
+   "url": "https://www.wikipedia.org/"
+  },
+  {
+   "tab": "page-96CBCD9F",
+   "k": "nav",
+   "t": 1793255383437,
+   "url": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+  }
+ ],
+ "tools": [
+  {
+   "t": 1793255359819,
+   "name": "ToolSearch",
+   "input": {
+    "query": "select:mcp__web-mcp__browser_start,mcp__web-mcp__browser_navigate,mcp__web-mcp__browser_snapshot,mcp__web-mcp__browser_fill,mcp__web-mcp__browser_press_key,mcp__web-mcp__browser_click,mcp__web-mcp__browser_type,mcp__web-mcp__browser_get_status,mcp__web-mcp__browser_done,mcp__web-mcp__browser_screenshot",
+    "max_results": 10
+   }
+  },
+  {
+   "t": 1793255360970,
+   "name": "browser_navigate",
+   "input": {
+    "url": "https://www.wikipedia.org"
+   }
+  },
+  {
+   "t": 1793255370200,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793255372069,
+   "name": "browser_fill",
+   "input": {
+    "uid": "1_47",
+    "value": "Eiffel Tower"
+   }
+  },
+  {
+   "t": 1793255372276,
+   "name": "browser_press_key",
+   "input": {
+    "key": "Enter"
+   }
+  },
+  {
+   "t": 1793255380049,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793255382735,
+   "name": "browser_click",
+   "input": {
+    "uid": "2_0"
+   }
+  },
+  {
+   "t": 1793255386736,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793255393568,
+   "name": "ToolSearch",
+   "input": {
+    "query": "select:mcp__web-mcp__browser_evaluate",
+    "max_results": 1
+   }
+  },
+  {
+   "t": 1793255396506,
+   "name": "browser_evaluate",
+   "input": {
+    "script": "(() => {\n  const rows = [...document.querySelectorAll('.infobox tr')]\n    .filter(r => /height/i.test(r.innerText))\n    .map(r => r.innerText.replace(/\\s+/g, ' ').trim());\n  const lead = [...document.querySelectorAll('#mw-content-text .mw-parser-output > p')]\n    .map(p => p.innerText)\n    .filter(t => /tall|height|metres/i.test(t))\n    .slice(0, 2);\n  return JSON.stringify({ title: document.title, rows, lead }, null, 2);\n})()"
+   }
+  },
+  {
+   "t": 1793255401019,
+   "name": "browser_evaluate",
+   "input": {
+    "script": "const rows = [...document.querySelectorAll('.infobox tr')].filter(r => /height/i.test(r.innerText)).map(r => r.innerText.replace(/\\s+/g, ' ').trim());\nconst lead = [...document.querySelectorAll('#mw-content-text .mw-parser-output > p')].map(p => p.innerText).filter(t => /tall|metres/i.test(t)).slice(0, 2);\nreturn JSON.stringify({ title: document.title, rows, lead }, null, 2);"
+   }
+  },
+  {
+   "t": 1793255405241,
+   "name": "browser_evaluate",
+   "input": {
+    "script": "const rows = [...document.querySelectorAll('.infobox tr')].map(r => r.textContent.replace(/\\s+/g, ' ').trim());\nconst i = rows.findIndex(r => /^Record height/i.test(r));\nconst j = rows.findIndex(r => /^Height$/i.test(r));\nconst paras = [...document.querySelectorAll('#mw-content-text p')].map(p => p.textContent.replace(/\\s+/g, ' ').trim()).filter(t => /\\btall\\b|metres/i.test(t)).slice(0, 3);\nreturn JSON.stringify({ record: rows.slice(i, i + 4), height: rows.slice(j, j + 6), paras }, null, 2);"
+   }
+  },
+  {
+   "t": 1793255406525,
+   "name": "browser_done",
+   "input": {}
+  }
+ ],
+ "says": [
+  {
+   "t": 1793255382530,
+   "text": "Search is showing suggestions, so I'm opening the Eiffel Tower article."
+  },
+  {
+   "t": 1793255392913,
+   "text": "The page snapshot was too large to read, so I'll pull just the height from the article's infobox."
+  },
+  {
+   "t": 1793255409292,
+   "text": "The Eiffel Tower is **330 metres (1,083 ft) tall**, measured to the tip of its antenna, according to its English Wikipedia article.\n\nOther heights the article gives:\n- **Without the antenna:** 300 m (984 ft)\n- **Top floor:** 276 m (906 ft)\n\nThe article says that's about the height of an 81-storey building, and it's the tallest structure in Paris. The tower was the tallest structure in the world from 1889 until the Chrysler Building was finished in 1930. A broadcasting antenna added in 1957 made it 11 m taller than the Chrysler Building."
+  }
+ ],
+ "result": {
+  "t": 1793255409327,
+  "text": "The Eiffel Tower is **330 metres (1,083 ft) tall**, measured to the tip of its antenna, according to its English Wikipedia article.\n\nOther heights the article gives:\n- **Without the antenna:** 300 m (984 ft)\n- **Top floor:** 276 m (906 ft)\n\nThe article says that's about the height of an 81-storey building, and it's the tallest structure in Paris. The tower was the tallest structure in the world from 1889 until the Chrysler Building was finished in 1930. A broadcasting antenna added in 1957 made it 11 m taller than the Chrysler Building."
+ },
+ "sidebar": [
+  {
+   "t": 1793255363870,
+   "active": false,
+   "task": "",
+   "last": null,
+   "count": 0
+  },
+  {
+   "t": 1793255363908,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Starting task: AI Browser Task",
+   "count": 1
+  },
+  {
+   "t": 1793255367303,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Navigating to https://www.wikipedia.org",
+   "count": 2
+  },
+  {
+   "t": 1793255370255,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 3
+  },
+  {
+   "t": 1793255373427,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (1_47): \"Eiffel Tower\"",
+   "count": 4
+  },
+  {
+   "t": 1793255375039,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Pressing: Enter",
+   "count": 5
+  },
+  {
+   "t": 1793255380259,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 6
+  },
+  {
+   "t": 1793255382803,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (2_0)",
+   "count": 7
+  },
+  {
+   "t": 1793255386787,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 8
+  },
+  {
+   "t": 1793255396579,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Executing JavaScript",
+   "count": 9
+  },
+  {
+   "t": 1793255406579,
+   "active": false,
+   "task": "",
+   "last": null,
+   "count": 0
+  }
+ ]
+}

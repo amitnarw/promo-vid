@@ -1,0 +1,46 @@
+{"k":"ctx","title":"","vis":"visible","t":1793255339028,"url":"about:blank"}
+{"k":"nav","t":1793255367923,"url":"https://www.wikipedia.org/"}
+{"k":"ctx","title":"","vis":"visible","t":1793255367990,"url":"https://www.wikipedia.org/"}
+{"k":"focus","r":[283,472,394,44],"tag":"INPUT","label":"search","t":1793255368219,"url":"https://www.wikipedia.org/"}
+{"k":"ctx","title":"","vis":"visible","t":1793255368747,"url":"about:blank"}
+{"k":"vis","v":"hidden","t":1793255368751,"url":"about:blank"}
+{"k":"ctx","title":"","vis":"visible","t":1793255368785,"url":"about:blank"}
+{"k":"vis","v":"hidden","t":1793255368789,"url":"about:blank"}
+{"k":"down","x":452.20001220703125,"y":494.0500183105469,"r":[255,472,394,44],"tag":"INPUT","label":"search","t":1793255372497,"url":"https://www.wikipedia.org/"}
+{"k":"click","x":452,"y":494,"r":[255,472,394,44],"tag":"INPUT","label":"search","t":1793255372499,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":0,"t":1793255373112,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255373803,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":1,"t":1793255373809,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255373831,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":2,"t":1793255373837,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255373855,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":3,"t":1793255373858,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255373899,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":4,"t":1793255373904,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255373988,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":5,"t":1793255373991,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255374018,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":6,"t":1793255374023,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255374060,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":7,"t":1793255374062,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255374120,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":8,"t":1793255374124,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255374143,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":9,"t":1793255374147,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255374177,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":10,"t":1793255374179,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255374257,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":11,"t":1793255374259,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"char","t":1793255374350,"url":"https://www.wikipedia.org/"}
+{"k":"input","r":[255,472,394,44],"len":12,"t":1793255374354,"url":"https://www.wikipedia.org/"}
+{"k":"key","key":"Enter","t":1793255375390,"url":"https://www.wikipedia.org/"}
+{"k":"click","x":0,"y":0,"r":[649,472,56,44],"tag":"BUTTON","label":"Search","t":1793255375392,"url":"https://www.wikipedia.org/"}
+{"k":"down","x":452.20001220703125,"y":551.0499877929688,"r":[341,553,298,14],"tag":"P","label":"Tower in Paris, France","t":1793255383251,"url":"https://www.wikipedia.org/"}
+{"k":"focus","r":[256,516,393,70],"tag":"A","label":"Eiffel Tower\n\nTower in Paris, France","t":1793255383253,"url":"https://www.wikipedia.org/"}
+{"k":"click","x":452,"y":551,"r":[341,553,298,14],"tag":"P","label":"Tower in Paris, France","t":1793255383254,"url":"https://www.wikipedia.org/"}
+{"k":"nav","t":1793255383437,"url":"https://en.wikipedia.org/wiki/Eiffel_Tower"}
+{"k":"ctx","title":"","vis":"visible","t":1793255383517,"url":"https://en.wikipedia.org/wiki/Eiffel_Tower"}
+{"k":"ctx","title":"","vis":"visible","t":1793255384650,"url":"about:blank"}
+{"k":"vis","v":"hidden","t":1793255384653,"url":"about:blank"}
+{"k":"ctx","title":"","vis":"visible","t":1793255384683,"url":"about:blank"}
+{"k":"vis","v":"hidden","t":1793255384687,"url":"about:blank"}

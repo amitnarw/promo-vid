@@ -1,0 +1,51 @@
+{
+  "id": "prices-01",
+  "tabs": {
+    "page-B3F8259B": {
+      "events": 13,
+      "start": 1793258044348,
+      "end": 1793258066917,
+      "pages": [
+        {
+          "t": 1793258044348,
+          "href": "about:blank",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258057626,
+          "href": "https://books.toscrape.com/",
+          "w": 960,
+          "h": 1280
+        }
+      ]
+    },
+    "panel-7A032074": {
+      "events": 12,
+      "start": 1793258045512,
+      "end": 1793258066920,
+      "pages": [
+        {
+          "t": 1793258045512,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258055616,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258066912,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        }
+      ]
+    }
+  },
+  "assetsLoaded": 32,
+  "assetsReferenced": 25
+}

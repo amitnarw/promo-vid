@@ -1,0 +1,158 @@
+{
+ "id": "status-01",
+ "prompt": "Check githubstatus.com and tell me whether all GitHub services are working normally right now.",
+ "viewport": {
+  "w": 960,
+  "h": 1280
+ },
+ "panel": {
+  "w": 420,
+  "h": 1280
+ },
+ "tabs": {
+  "page-6402F78E": {
+   "start": 1793258332086,
+   "pages": [
+    {
+     "href": "about:blank",
+     "shown": 1793258332147
+    },
+    {
+     "href": "https://www.githubstatus.com/",
+     "shown": 1793258365631
+    }
+   ]
+  },
+  "panel-EE6310AF": {
+   "start": 1793258333223,
+   "pages": [
+    {
+     "href": "http://127.0.0.1:3091/sidepanel.html",
+     "shown": 1793258333251
+    }
+   ]
+  }
+ },
+ "touches": [
+  {
+   "tab": "page-6402F78E",
+   "k": "nav",
+   "t": 1793258362977,
+   "url": "https://www.githubstatus.com/"
+  }
+ ],
+ "tools": [
+  {
+   "t": 1793258338936,
+   "name": "ToolSearch",
+   "input": {
+    "query": "select:mcp__web-mcp__browser_start,mcp__web-mcp__browser_navigate,mcp__web-mcp__browser_snapshot,mcp__web-mcp__browser_get_status,mcp__web-mcp__browser_done",
+    "max_results": 5
+   }
+  },
+  {
+   "t": 1793258340815,
+   "name": "browser_navigate",
+   "input": {
+    "url": "https://www.githubstatus.com"
+   }
+  },
+  {
+   "t": 1793258372330,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258376706,
+   "name": "ToolSearch",
+   "input": {
+    "query": "select:mcp__web-mcp__browser_evaluate",
+    "max_results": 1
+   }
+  },
+  {
+   "t": 1793258381152,
+   "name": "browser_evaluate",
+   "input": {
+    "script": "(() => {\n  const q = s => document.querySelector(s);\n  const banner = q('.page-status, .unresolved-incidents, .status-description');\n  const overall = Array.from(document.querySelectorAll('.page-status .status, .page-status, .unresolved-incident')).map(e => e.innerText.trim()).filter(Boolean);\n  const comps = Array.from(document.querySelectorAll('.component-inner-container')).map(c => {\n    const name = c.querySelector('.name')?.innerText.trim();\n    const status = c.querySelector('.component-status')?.innerText.trim();\n    return name + ': ' + status;\n  });\n  const incidents = Array.from(document.querySelectorAll('.unresolved-incidents .incident-title, .unresolved-incident .incident-title')).map(e => e.innerText.trim());\n  return JSON.stringify({title: document.title, overall, incidents, comps}, null, 1);\n})()"
+   }
+  },
+  {
+   "t": 1793258384319,
+   "name": "browser_evaluate",
+   "input": {
+    "script": "document.body.innerText.slice(0, 4000)"
+   }
+  },
+  {
+   "t": 1793258387098,
+   "name": "browser_evaluate",
+   "input": {
+    "script": "return document.body.innerText.slice(0, 4000);"
+   }
+  },
+  {
+   "t": 1793258389668,
+   "name": "browser_done",
+   "input": {}
+  }
+ ],
+ "says": [
+  {
+   "t": 1793258383886,
+   "text": "Still working: my first script returned nothing, so I'm trying a simpler way to pull the status text off the page."
+  },
+  {
+   "t": 1793258394115,
+   "text": "Yes. githubstatus.com says **\"All Systems Operational\"** right now (checked 2026-10-29), and it shows no active incidents.\n\nAll 11 services it tracks are marked **Normal** today. The figures are uptime over the past 60 days:\n\n| Service | Today | 60-day uptime |\n|---|---|---|\n| Git Operations | Normal | 99.99% |\n| Webhooks | Normal | 99.98% |\n| API Requests | Normal | 100% |\n| Issues | Normal | 100% |\n| Pull Requests | Normal | 99.9% |\n| Actions | Normal | 99.82% |\n| Packages | Normal | 100% |\n| Pages | Normal | 100% |\n| Copilot | Normal | 100% |\n| Codespaces | Normal | 100% |\n| Copilot AI Model Providers | Normal | 99.92% |\n\nThis page only covers GitHub.com. If you use GitHub Enterprise Cloud with data residency, each region has its own status page (for example, us.githubstatus.com or eu.githubstatus.com), and I didn't check those."
+  }
+ ],
+ "result": {
+  "t": 1793258394142,
+  "text": "Yes. githubstatus.com says **\"All Systems Operational\"** right now (checked 2026-10-29), and it shows no active incidents.\n\nAll 11 services it tracks are marked **Normal** today. The figures are uptime over the past 60 days:\n\n| Service | Today | 60-day uptime |\n|---|---|---|\n| Git Operations | Normal | 99.99% |\n| Webhooks | Normal | 99.98% |\n| API Requests | Normal | 100% |\n| Issues | Normal | 100% |\n| Pull Requests | Normal | 99.9% |\n| Actions | Normal | 99.82% |\n| Packages | Normal | 100% |\n| Pages | Normal | 100% |\n| Copilot | Normal | 100% |\n| Codespaces | Normal | 100% |\n| Copilot AI Model Providers | Normal | 99.92% |\n\nThis page only covers GitHub.com. If you use GitHub Enterprise Cloud with data residency, each region has its own status page (for example, us.githubstatus.com or eu.githubstatus.com), and I didn't check those."
+ },
+ "sidebar": [
+  {
+   "t": 1793258355648,
+   "active": false,
+   "task": "",
+   "last": null,
+   "count": 0
+  },
+  {
+   "t": 1793258355878,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Starting task: AI Browser Task",
+   "count": 1
+  },
+  {
+   "t": 1793258362406,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Navigating to https://www.githubstatus.com",
+   "count": 2
+  },
+  {
+   "t": 1793258372402,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 3
+  },
+  {
+   "t": 1793258381323,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Executing JavaScript",
+   "count": 4
+  },
+  {
+   "t": 1793258389784,
+   "active": false,
+   "task": "",
+   "last": null,
+   "count": 0
+  }
+ ]
+}

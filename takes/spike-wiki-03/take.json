@@ -1,0 +1,41 @@
+{
+  "id": "spike-wiki-03",
+  "prompt": "Go to wikipedia.org, search for the Eiffel Tower and tell me how tall it is.",
+  "model": "default",
+  "viewport": {
+    "w": 960,
+    "h": 1280,
+    "dpr": 2.25
+  },
+  "panel": {
+    "w": 420,
+    "h": 1280,
+    "dpr": 3
+  },
+  "started": 1793252515626,
+  "ended": 1793252591787,
+  "agentExit": 0,
+  "tabs": [
+    {
+      "id": "071B92F8",
+      "dir": "page-071B92F8",
+      "frames": 3,
+      "fps": 0
+    },
+    {
+      "id": "5C4342AA",
+      "dir": "page-5C4342AA",
+      "frames": 3,
+      "fps": 0.1
+    },
+    {
+      "id": "BAC7842A",
+      "dir": "panel-BAC7842A",
+      "frames": 3,
+      "fps": 0
+    }
+  ],
+  "webMcpSessions": [
+    "session-2026-10-29T05-42-22-682Z"
+  ]
+}

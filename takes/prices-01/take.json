@@ -1,0 +1,34 @@
+{
+  "id": "prices-01",
+  "prompt": "Go to books.toscrape.com and tell me the five cheapest books on the first page, with their prices.",
+  "model": "default",
+  "viewport": {
+    "w": 960,
+    "h": 1280
+  },
+  "panel": {
+    "w": 420,
+    "h": 1280
+  },
+  "colorScheme": "light",
+  "started": 1793258041350,
+  "ended": 1793258074841,
+  "agentExit": 0,
+  "tabs": [
+    {
+      "id": "B3F8259B",
+      "dir": "page-B3F8259B",
+      "domEvents": 13,
+      "refs": 24
+    },
+    {
+      "id": "7A032074",
+      "dir": "panel-7A032074",
+      "domEvents": 12,
+      "refs": 20
+    }
+  ],
+  "webMcpSessions": [
+    "session-2026-10-29T07-14-13-111Z"
+  ]
+}

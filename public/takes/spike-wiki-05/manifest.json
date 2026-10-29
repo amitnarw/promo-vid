@@ -1,0 +1,81 @@
+{
+  "id": "spike-wiki-05",
+  "tabs": {
+    "page-DE4B30DC": {
+      "events": 81,
+      "start": 1793254800731,
+      "end": 1793254858896,
+      "pages": [
+        {
+          "t": 1793254800731,
+          "href": "about:blank",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793254826139,
+          "href": "https://www.wikipedia.org/",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793254836419,
+          "href": "https://www.wikipedia.org/",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793254840563,
+          "href": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793254851896,
+          "href": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+          "w": 960,
+          "h": 1280
+        }
+      ]
+    },
+    "panel-A995A6CE": {
+      "events": 21,
+      "start": 1793254802476,
+      "end": 1793254858887,
+      "pages": [
+        {
+          "t": 1793254802476,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793254819135,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793254836706,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793254847024,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793254858874,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        }
+      ]
+    }
+  },
+  "assetsLoaded": 45,
+  "assetsReferenced": 36
+}

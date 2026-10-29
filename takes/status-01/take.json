@@ -1,0 +1,34 @@
+{
+  "id": "status-01",
+  "prompt": "Check githubstatus.com and tell me whether all GitHub services are working normally right now.",
+  "model": "default",
+  "viewport": {
+    "w": 960,
+    "h": 1280
+  },
+  "panel": {
+    "w": 420,
+    "h": 1280
+  },
+  "colorScheme": "light",
+  "started": 1793258328875,
+  "ended": 1793258399147,
+  "agentExit": 0,
+  "tabs": [
+    {
+      "id": "6402F78E",
+      "dir": "page-6402F78E",
+      "domEvents": 40,
+      "refs": 49
+    },
+    {
+      "id": "EE6310AF",
+      "dir": "panel-EE6310AF",
+      "domEvents": 17,
+      "refs": 48
+    }
+  ],
+  "webMcpSessions": [
+    "session-2026-10-29T07-19-15-848Z"
+  ]
+}

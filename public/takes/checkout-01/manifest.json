@@ -1,0 +1,93 @@
+{
+  "id": "checkout-01",
+  "tabs": {
+    "page-080967F6": {
+      "events": 301,
+      "start": 1793257937812,
+      "end": 1793258025908,
+      "pages": [
+        {
+          "t": 1793257937812,
+          "href": "about:blank",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793257960769,
+          "href": "https://www.saucedemo.com/",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793257972772,
+          "href": "https://www.saucedemo.com/",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793257982902,
+          "href": "https://www.saucedemo.com/inventory.html",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793257995743,
+          "href": "https://www.saucedemo.com/inventory.html",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258006396,
+          "href": "https://www.saucedemo.com/cart.html",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258016479,
+          "href": "https://www.saucedemo.com/checkout-step-one.html",
+          "w": 960,
+          "h": 1280
+        }
+      ]
+    },
+    "panel-0645E2D2": {
+      "events": 27,
+      "start": 1793257938847,
+      "end": 1793258025918,
+      "pages": [
+        {
+          "t": 1793257938847,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793257955169,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793257967442,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793257979506,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258025889,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        }
+      ]
+    }
+  },
+  "assetsLoaded": 20,
+  "assetsReferenced": 15
+}

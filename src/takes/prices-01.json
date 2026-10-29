@@ -1,0 +1,139 @@
+{
+ "id": "prices-01",
+ "prompt": "Go to books.toscrape.com and tell me the five cheapest books on the first page, with their prices.",
+ "viewport": {
+  "w": 960,
+  "h": 1280
+ },
+ "panel": {
+  "w": 420,
+  "h": 1280
+ },
+ "tabs": {
+  "page-B3F8259B": {
+   "start": 1793258044348,
+   "pages": [
+    {
+     "href": "about:blank",
+     "shown": 1793258044401
+    },
+    {
+     "href": "https://books.toscrape.com/",
+     "shown": 1793258057694
+    }
+   ]
+  },
+  "panel-7A032074": {
+   "start": 1793258045512,
+   "pages": [
+    {
+     "href": "http://127.0.0.1:3091/sidepanel.html",
+     "shown": 1793258045550
+    }
+   ]
+  }
+ },
+ "touches": [
+  {
+   "tab": "page-B3F8259B",
+   "k": "nav",
+   "t": 1793258056022,
+   "url": "https://books.toscrape.com/"
+  }
+ ],
+ "tools": [
+  {
+   "t": 1793258049944,
+   "name": "ToolSearch",
+   "input": {
+    "query": "select:mcp__web-mcp__browser_start,mcp__web-mcp__browser_navigate,mcp__web-mcp__browser_snapshot,mcp__web-mcp__browser_evaluate",
+    "max_results": 4
+   }
+  },
+  {
+   "t": 1793258051633,
+   "name": "browser_navigate",
+   "input": {
+    "url": "https://books.toscrape.com"
+   }
+  },
+  {
+   "t": 1793258059886,
+   "name": "browser_evaluate",
+   "input": {
+    "script": "Array.from(document.querySelectorAll('article.product_pod')).map(a => ({title: a.querySelector('h3 a').getAttribute('title'), price: a.querySelector('.price_color').textContent.trim()}))"
+   }
+  },
+  {
+   "t": 1793258062481,
+   "name": "browser_evaluate",
+   "input": {
+    "script": "return JSON.stringify(Array.from(document.querySelectorAll('article.product_pod')).map(a => ({title: a.querySelector('h3 a').getAttribute('title'), price: a.querySelector('.price_color').textContent.trim()})))"
+   }
+  },
+  {
+   "t": 1793258065172,
+   "name": "ToolSearch",
+   "input": {
+    "query": "select:mcp__web-mcp__browser_done",
+    "max_results": 1
+   }
+  },
+  {
+   "t": 1793258066897,
+   "name": "browser_done",
+   "input": {}
+  }
+ ],
+ "says": [
+  {
+   "t": 1793258066857,
+   "text": "Got the prices from the page; releasing the browser now."
+  },
+  {
+   "t": 1793258069919,
+   "text": "These are the five cheapest of the 20 books on the first page of books.toscrape.com:\n\n| # | Book | Price |\n|---|------|-------|\n| 1 | Starving Hearts (Triangular Trade Trilogy, #1) | £13.99 |\n| 2 | Set Me Free | £17.46 |\n| 3 | The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | £17.93 |\n| 4 | Shakespeare's Sonnets | £20.66 |\n| 5 | The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | £22.60 |\n\nThe Requiem Red (£22.65) is sixth, just 5p more than #5."
+  }
+ ],
+ "result": {
+  "t": 1793258069938,
+  "text": "These are the five cheapest of the 20 books on the first page of books.toscrape.com:\n\n| # | Book | Price |\n|---|------|-------|\n| 1 | Starving Hearts (Triangular Trade Trilogy, #1) | £13.99 |\n| 2 | Set Me Free | £17.46 |\n| 3 | The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | £17.93 |\n| 4 | Shakespeare's Sonnets | £20.66 |\n| 5 | The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | £22.60 |\n\nThe Requiem Red (£22.65) is sixth, just 5p more than #5."
+ },
+ "sidebar": [
+  {
+   "t": 1793258052997,
+   "active": false,
+   "task": "",
+   "last": null,
+   "count": 0
+  },
+  {
+   "t": 1793258053115,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Starting task: AI Browser Task",
+   "count": 1
+  },
+  {
+   "t": 1793258054903,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Navigating to https://books.toscrape.com",
+   "count": 2
+  },
+  {
+   "t": 1793258059913,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Executing JavaScript",
+   "count": 3
+  },
+  {
+   "t": 1793258066911,
+   "active": false,
+   "task": "",
+   "last": null,
+   "count": 0
+  }
+ ]
+}

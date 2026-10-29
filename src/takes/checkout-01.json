@@ -1,0 +1,1922 @@
+{
+ "id": "checkout-01",
+ "prompt": "Go to saucedemo.com and test the checkout like a customer would: log in as standard_user with the password secret_sauce, add the Sauce Labs Backpack to the cart, check out with any test name and postcode, and tell me whether the order goes through.",
+ "viewport": {
+  "w": 960,
+  "h": 1280
+ },
+ "panel": {
+  "w": 420,
+  "h": 1280
+ },
+ "tabs": {
+  "page-080967F6": {
+   "start": 1793257937812,
+   "pages": [
+    {
+     "href": "about:blank",
+     "shown": 1793257937843
+    },
+    {
+     "href": "https://www.saucedemo.com/",
+     "shown": 1793257960827
+    },
+    {
+     "href": "https://www.saucedemo.com/inventory.html",
+     "shown": 1793257982909
+    },
+    {
+     "href": "https://www.saucedemo.com/cart.html",
+     "shown": 1793258006402
+    },
+    {
+     "href": "https://www.saucedemo.com/checkout-step-one.html",
+     "shown": 1793258016492
+    }
+   ]
+  },
+  "panel-0645E2D2": {
+   "start": 1793257938847,
+   "pages": [
+    {
+     "href": "http://127.0.0.1:3091/sidepanel.html",
+     "shown": 1793257938874
+    }
+   ]
+  }
+ },
+ "touches": [
+  {
+   "tab": "page-080967F6",
+   "k": "nav",
+   "t": 1793257960522,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 480,
+   "y": 173,
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Username",
+   "t": 1793257966672,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "focus",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Username",
+   "t": 1793257966672,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 480,
+   "y": 173,
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Username",
+   "t": 1793257966674,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 0,
+   "t": 1793257967253,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967766,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 1,
+   "t": 1793257967769,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967778,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 2,
+   "t": 1793257967781,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967789,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 3,
+   "t": 1793257967790,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967797,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 4,
+   "t": 1793257967799,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967803,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 5,
+   "t": 1793257967805,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967811,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 6,
+   "t": 1793257967814,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967825,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 7,
+   "t": 1793257967827,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967833,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 8,
+   "t": 1793257967835,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967839,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 9,
+   "t": 1793257967840,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967845,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 10,
+   "t": 1793257967847,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967854,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 11,
+   "t": 1793257967855,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967860,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 12,
+   "t": 1793257967861,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257967869,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    154,
+    292,
+    38
+   ],
+   "len": 13,
+   "t": 1793257967869,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 480,
+   "y": 226.40000915527344,
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Password",
+   "t": 1793257968695,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "focus",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Password",
+   "t": 1793257968697,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 480,
+   "y": 226,
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Password",
+   "t": 1793257968700,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 0,
+   "t": 1793257969204,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969760,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 1,
+   "t": 1793257969762,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969774,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 2,
+   "t": 1793257969775,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969781,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 3,
+   "t": 1793257969783,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969790,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 4,
+   "t": 1793257969791,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969797,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 5,
+   "t": 1793257969798,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969803,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 6,
+   "t": 1793257969803,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969808,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 7,
+   "t": 1793257969808,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969812,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 8,
+   "t": 1793257969813,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969817,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 9,
+   "t": 1793257969818,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969821,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 10,
+   "t": 1793257969822,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969827,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 11,
+   "t": 1793257969827,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793257969831,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    334,
+    207,
+    292,
+    38
+   ],
+   "len": 12,
+   "t": 1793257969832,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 480,
+   "y": 325,
+   "r": [
+    334,
+    301,
+    292,
+    49
+   ],
+   "tag": "INPUT",
+   "label": "login-button",
+   "t": 1793257973193,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "focus",
+   "r": [
+    334,
+    301,
+    292,
+    49
+   ],
+   "tag": "INPUT",
+   "label": "login-button",
+   "t": 1793257973194,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 480,
+   "y": 325,
+   "r": [
+    334,
+    301,
+    292,
+    49
+   ],
+   "tag": "INPUT",
+   "label": "login-button",
+   "t": 1793257973195,
+   "url": "https://www.saucedemo.com/"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 608.6000366210938,
+   "y": 184.40000915527344,
+   "r": [
+    322,
+    174,
+    573,
+    20
+   ],
+   "tag": "DIV",
+   "label": "Sauce Labs Backpack",
+   "t": 1793257996291,
+   "url": "https://www.saucedemo.com/inventory.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "focus",
+   "r": [
+    322,
+    174,
+    573,
+    20
+   ],
+   "tag": "A",
+   "label": "View details for Sauce Labs Backpack",
+   "t": 1793257996292,
+   "url": "https://www.saucedemo.com/inventory.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 608,
+   "y": 184,
+   "r": [
+    322,
+    174,
+    573,
+    20
+   ],
+   "tag": "DIV",
+   "label": "Sauce Labs Backpack",
+   "t": 1793257996292,
+   "url": "https://www.saucedemo.com/inventory.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 471.1625061035156,
+   "y": 396.1999816894531,
+   "r": [
+    391,
+    379,
+    160,
+    34
+   ],
+   "tag": "BUTTON",
+   "label": "add-to-cart",
+   "t": 1793257999507,
+   "url": "https://www.saucedemo.com/inventory-item.html?id=4"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "focus",
+   "r": [
+    391,
+    379,
+    160,
+    34
+   ],
+   "tag": "BUTTON",
+   "label": "add-to-cart",
+   "t": 1793257999508,
+   "url": "https://www.saucedemo.com/inventory-item.html?id=4"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 471,
+   "y": 396,
+   "r": [
+    391,
+    379,
+    160,
+    34
+   ],
+   "tag": "BUTTON",
+   "label": "add-to-cart",
+   "t": 1793257999508,
+   "url": "https://www.saucedemo.com/inventory-item.html?id=4"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 920,
+   "y": 30,
+   "r": [
+    900,
+    10,
+    40,
+    40
+   ],
+   "tag": "A",
+   "label": "Cart, 1 items",
+   "t": 1793258003018,
+   "url": "https://www.saucedemo.com/inventory-item.html?id=4"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 920,
+   "y": 30,
+   "r": [
+    900,
+    10,
+    40,
+    40
+   ],
+   "tag": "A",
+   "label": "Cart, 1 items",
+   "t": 1793258003019,
+   "url": "https://www.saucedemo.com/inventory-item.html?id=4"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 835,
+   "y": 427.8000183105469,
+   "r": [
+    725,
+    411,
+    220,
+    34
+   ],
+   "tag": "BUTTON",
+   "label": "checkout",
+   "t": 1793258006831,
+   "url": "https://www.saucedemo.com/cart.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "focus",
+   "r": [
+    725,
+    411,
+    220,
+    34
+   ],
+   "tag": "BUTTON",
+   "label": "checkout",
+   "t": 1793258006831,
+   "url": "https://www.saucedemo.com/cart.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 835,
+   "y": 427,
+   "r": [
+    725,
+    411,
+    220,
+    34
+   ],
+   "tag": "BUTTON",
+   "label": "checkout",
+   "t": 1793258006832,
+   "url": "https://www.saucedemo.com/cart.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 480,
+   "y": 273.6000061035156,
+   "r": [
+    290,
+    254,
+    380,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "First Name",
+   "t": 1793258010648,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "focus",
+   "r": [
+    290,
+    254,
+    380,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "First Name",
+   "t": 1793258010650,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 480,
+   "y": 273,
+   "r": [
+    290,
+    254,
+    380,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "First Name",
+   "t": 1793258010655,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    254,
+    380,
+    38
+   ],
+   "len": 0,
+   "t": 1793258011221,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258011820,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    254,
+    380,
+    38
+   ],
+   "len": 1,
+   "t": 1793258011825,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258011852,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    254,
+    380,
+    38
+   ],
+   "len": 2,
+   "t": 1793258011855,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258011890,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    254,
+    380,
+    38
+   ],
+   "len": 3,
+   "t": 1793258011893,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258011917,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    254,
+    380,
+    38
+   ],
+   "len": 4,
+   "t": 1793258011920,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 480,
+   "y": 327.0000305175781,
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Last Name",
+   "t": 1793258012812,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "focus",
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Last Name",
+   "t": 1793258012813,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 480,
+   "y": 327,
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Last Name",
+   "t": 1793258012815,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "len": 0,
+   "t": 1793258013339,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258013799,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "len": 1,
+   "t": 1793258013801,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258013814,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "len": 2,
+   "t": 1793258013818,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258013832,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "len": 3,
+   "t": 1793258013834,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258013848,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "len": 4,
+   "t": 1793258013851,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258013862,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "len": 5,
+   "t": 1793258013863,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258013879,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "len": 6,
+   "t": 1793258013881,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258013897,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "len": 7,
+   "t": 1793258013898,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258013913,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    308,
+    380,
+    38
+   ],
+   "len": 8,
+   "t": 1793258013915,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 480,
+   "y": 380.4000244140625,
+   "r": [
+    290,
+    361,
+    380,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Zip/Postal Code",
+   "t": 1793258014774,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "focus",
+   "r": [
+    290,
+    361,
+    380,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Zip/Postal Code",
+   "t": 1793258014775,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 480,
+   "y": 380,
+   "r": [
+    290,
+    361,
+    380,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "Zip/Postal Code",
+   "t": 1793258014777,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    361,
+    380,
+    38
+   ],
+   "len": 0,
+   "t": 1793258015298,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258015893,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    361,
+    380,
+    38
+   ],
+   "len": 1,
+   "t": 1793258015894,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258015911,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    361,
+    380,
+    38
+   ],
+   "len": 2,
+   "t": 1793258015913,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258015928,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    361,
+    380,
+    38
+   ],
+   "len": 3,
+   "t": 1793258015929,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258015950,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    361,
+    380,
+    38
+   ],
+   "len": 4,
+   "t": 1793258015952,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "key",
+   "key": "char",
+   "t": 1793258015963,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "input",
+   "r": [
+    290,
+    361,
+    380,
+    38
+   ],
+   "len": 5,
+   "t": 1793258015965,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 835,
+   "y": 616.6000366210938,
+   "r": [
+    725,
+    596,
+    220,
+    41
+   ],
+   "tag": "INPUT",
+   "label": "continue",
+   "t": 1793258018244,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "focus",
+   "r": [
+    725,
+    596,
+    220,
+    41
+   ],
+   "tag": "INPUT",
+   "label": "continue",
+   "t": 1793258018245,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 835,
+   "y": 616,
+   "r": [
+    725,
+    596,
+    220,
+    41
+   ],
+   "tag": "INPUT",
+   "label": "continue",
+   "t": 1793258018246,
+   "url": "https://www.saucedemo.com/checkout-step-one.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "down",
+   "x": 835,
+   "y": 697.7999877929688,
+   "r": [
+    725,
+    681,
+    220,
+    34
+   ],
+   "tag": "BUTTON",
+   "label": "finish",
+   "t": 1793258022235,
+   "url": "https://www.saucedemo.com/checkout-step-two.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "focus",
+   "r": [
+    725,
+    681,
+    220,
+    34
+   ],
+   "tag": "BUTTON",
+   "label": "finish",
+   "t": 1793258022236,
+   "url": "https://www.saucedemo.com/checkout-step-two.html"
+  },
+  {
+   "tab": "page-080967F6",
+   "k": "click",
+   "x": 835,
+   "y": 697,
+   "r": [
+    725,
+    681,
+    220,
+    34
+   ],
+   "tag": "BUTTON",
+   "label": "finish",
+   "t": 1793258022236,
+   "url": "https://www.saucedemo.com/checkout-step-two.html"
+  }
+ ],
+ "tools": [
+  {
+   "t": 1793257947439,
+   "name": "ToolSearch",
+   "input": {
+    "query": "select:mcp__web-mcp__browser_start,mcp__web-mcp__browser_navigate,mcp__web-mcp__browser_snapshot,mcp__web-mcp__browser_fill,mcp__web-mcp__browser_click,mcp__web-mcp__browser_screenshot,mcp__web-mcp__browser_get_url,mcp__web-mcp__browser_type,mcp__web-mcp__browser_wait,mcp__web-mcp__browser_done",
+    "max_results": 10
+   }
+  },
+  {
+   "t": 1793257950197,
+   "name": "browser_navigate",
+   "input": {
+    "url": "https://www.saucedemo.com"
+   }
+  },
+  {
+   "t": 1793257963392,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793257966280,
+   "name": "browser_fill",
+   "input": {
+    "uid": "1_4",
+    "value": "standard_user"
+   }
+  },
+  {
+   "t": 1793257966649,
+   "name": "browser_fill",
+   "input": {
+    "uid": "1_5",
+    "value": "secret_sauce"
+   }
+  },
+  {
+   "t": 1793257972731,
+   "name": "browser_click",
+   "input": {
+    "uid": "1_6"
+   }
+  },
+  {
+   "t": 1793257976628,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793257979451,
+   "name": "browser_click",
+   "input": {
+    "uid": "2_18"
+   }
+  },
+  {
+   "t": 1793257982668,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793257986101,
+   "name": "browser_screenshot",
+   "input": {}
+  },
+  {
+   "t": 1793257988470,
+   "name": "browser_click",
+   "input": {
+    "uid": "2_18"
+   }
+  },
+  {
+   "t": 1793257990694,
+   "name": "browser_screenshot",
+   "input": {}
+  },
+  {
+   "t": 1793257995841,
+   "name": "browser_click",
+   "input": {
+    "uid": "2_14"
+   }
+  },
+  {
+   "t": 1793257997828,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793257999039,
+   "name": "browser_click",
+   "input": {
+    "uid": "4_12"
+   }
+  },
+  {
+   "t": 1793258001067,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258002538,
+   "name": "browser_click",
+   "input": {
+    "uid": "4_4"
+   }
+  },
+  {
+   "t": 1793258004862,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258006366,
+   "name": "browser_click",
+   "input": {
+    "uid": "6_16"
+   }
+  },
+  {
+   "t": 1793258008365,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258010184,
+   "name": "browser_fill",
+   "input": {
+    "uid": "7_8",
+    "value": "Test"
+   }
+  },
+  {
+   "t": 1793258010695,
+   "name": "browser_fill",
+   "input": {
+    "uid": "7_9",
+    "value": "Customer"
+   }
+  },
+  {
+   "t": 1793258011069,
+   "name": "browser_fill",
+   "input": {
+    "uid": "7_10",
+    "value": "12345"
+   }
+  },
+  {
+   "t": 1793258017731,
+   "name": "browser_click",
+   "input": {
+    "uid": "7_12"
+   }
+  },
+  {
+   "t": 1793258019864,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258021870,
+   "name": "browser_click",
+   "input": {
+    "uid": "8_26"
+   }
+  },
+  {
+   "t": 1793258023794,
+   "name": "browser_screenshot",
+   "input": {}
+  },
+  {
+   "t": 1793258025859,
+   "name": "browser_done",
+   "input": {}
+  }
+ ],
+ "says": [
+  {
+   "t": 1793257976547,
+   "text": "Logged in as standard_user and now on the products page. Next I'll add the backpack to the cart."
+  },
+  {
+   "t": 1793257986020,
+   "text": "The cart still says empty and the button still reads \"Add to cart\", so I'll check with a screenshot whether the click actually registered."
+  },
+  {
+   "t": 1793257988266,
+   "text": "The click didn't register: the button still says \"Add to cart\" and there's no cart badge. I'll try clicking it again."
+  },
+  {
+   "t": 1793257995638,
+   "text": "The second click didn't work either. Login clicked through fine, so I'll try another way a customer would add it: open the backpack's product page and use its \"Add to cart\" button."
+  },
+  {
+   "t": 1793258002349,
+   "text": "That worked from the product page: the cart now shows 1 item and the button changed to \"Remove\". Going to the cart now."
+  },
+  {
+   "t": 1793258006186,
+   "text": "Cart contains 1 × Sauce Labs Backpack at $29.99. Proceeding to checkout."
+  },
+  {
+   "t": 1793258021670,
+   "text": "The overview shows the backpack at $29.99, tax $2.40, and a total of $32.39. I'll click Finish."
+  },
+  {
+   "t": 1793258032814,
+   "text": "Yes, the order went through. After I clicked Finish, the site showed **\"Checkout: Complete! – Thank you for your order!\"** with the message \"Your order has been dispatched, and will arrive just as fast as the pony can get there!\"\n\n**What I did:**\n1. **Logged in** as `standard_user` / `secret_sauce`, which took me to the Products page.\n2. **Added the Sauce Labs Backpack** ($29.99). The cart then showed 1 item.\n3. **Cart:** 1 × Sauce Labs Backpack, $29.99. I clicked Checkout.\n4. **My details:** I entered First name \"Test\", Last name \"Customer\" and Postcode \"12345\", then clicked Continue.\n5. **Order summary:**\n   - Payment: SauceCard #31337\n   - Shipping: Free Pony Express Delivery\n   - Item total $29.99 + tax $2.40 = **$32.39**\n6. **Finish:** the order was confirmed.\n\n**Something to look into:** the **\"Add to cart\" button on the main Products page didn't work for me**. I clicked it twice and nothing changed: the button still said \"Add to cart\" and the cart stayed empty. I then opened the backpack's own product page, and the \"Add to cart\" button there worked on the first click. Login and every checkout button worked normally.\n\nI can't say for sure whether this is a real problem on the site or just my browser tool not clicking that button properly. It's worth trying once by hand. If you can reproduce it with `standard_user`, it's a real bug, because that account isn't supposed to have any."
+  }
+ ],
+ "result": {
+  "t": 1793258032841,
+  "text": "Yes, the order went through. After I clicked Finish, the site showed **\"Checkout: Complete! – Thank you for your order!\"** with the message \"Your order has been dispatched, and will arrive just as fast as the pony can get there!\"\n\n**What I did:**\n1. **Logged in** as `standard_user` / `secret_sauce`, which took me to the Products page.\n2. **Added the Sauce Labs Backpack** ($29.99). The cart then showed 1 item.\n3. **Cart:** 1 × Sauce Labs Backpack, $29.99. I clicked Checkout.\n4. **My details:** I entered First name \"Test\", Last name \"Customer\" and Postcode \"12345\", then clicked Continue.\n5. **Order summary:**\n   - Payment: SauceCard #31337\n   - Shipping: Free Pony Express Delivery\n   - Item total $29.99 + tax $2.40 = **$32.39**\n6. **Finish:** the order was confirmed.\n\n**Something to look into:** the **\"Add to cart\" button on the main Products page didn't work for me**. I clicked it twice and nothing changed: the button still said \"Add to cart\" and the cart stayed empty. I then opened the backpack's own product page, and the \"Add to cart\" button there worked on the first click. Login and every checkout button worked normally.\n\nI can't say for sure whether this is a real problem on the site or just my browser tool not clicking that button properly. It's worth trying once by hand. If you can reproduce it with `standard_user`, it's a real bug, because that account isn't supposed to have any."
+ },
+ "sidebar": [
+  {
+   "t": 1793257954931,
+   "active": false,
+   "task": "",
+   "last": null,
+   "count": 0
+  },
+  {
+   "t": 1793257955136,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Starting task: AI Browser Task",
+   "count": 1
+  },
+  {
+   "t": 1793257960123,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Navigating to https://www.saucedemo.com",
+   "count": 2
+  },
+  {
+   "t": 1793257963424,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 3
+  },
+  {
+   "t": 1793257967438,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (1_4): \"standard_user\"",
+   "count": 4
+  },
+  {
+   "t": 1793257969444,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (1_5): \"secret_sauce\"",
+   "count": 5
+  },
+  {
+   "t": 1793257972768,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (1_6)",
+   "count": 6
+  },
+  {
+   "t": 1793257976668,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 7
+  },
+  {
+   "t": 1793257979499,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (2_18)",
+   "count": 8
+  },
+  {
+   "t": 1793257982693,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 9
+  },
+  {
+   "t": 1793257986178,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Taking screenshot",
+   "count": 10
+  },
+  {
+   "t": 1793257988520,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (2_18)",
+   "count": 10
+  },
+  {
+   "t": 1793257990730,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Taking screenshot",
+   "count": 10
+  },
+  {
+   "t": 1793257995864,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (2_14)",
+   "count": 10
+  },
+  {
+   "t": 1793257997879,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 10
+  },
+  {
+   "t": 1793257999076,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (4_12)",
+   "count": 10
+  },
+  {
+   "t": 1793258001103,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 10
+  },
+  {
+   "t": 1793258002587,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (4_4)",
+   "count": 10
+  },
+  {
+   "t": 1793258004885,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 10
+  },
+  {
+   "t": 1793258006391,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (6_16)",
+   "count": 10
+  },
+  {
+   "t": 1793258008534,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 10
+  },
+  {
+   "t": 1793258011466,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (7_8): \"Test\"",
+   "count": 10
+  },
+  {
+   "t": 1793258013581,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (7_9): \"Customer\"",
+   "count": 10
+  },
+  {
+   "t": 1793258015629,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (7_10): \"12345\"",
+   "count": 10
+  },
+  {
+   "t": 1793258017791,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (7_12)",
+   "count": 10
+  },
+  {
+   "t": 1793258019951,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 10
+  },
+  {
+   "t": 1793258021912,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (8_26)",
+   "count": 10
+  },
+  {
+   "t": 1793258023851,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Taking screenshot",
+   "count": 10
+  },
+  {
+   "t": 1793258025886,
+   "active": false,
+   "task": "",
+   "last": null,
+   "count": 0
+  }
+ ]
+}

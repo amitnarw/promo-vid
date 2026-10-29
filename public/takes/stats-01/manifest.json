@@ -1,0 +1,69 @@
+{
+  "id": "stats-01",
+  "tabs": {
+    "page-B6B35F07": {
+      "events": 121,
+      "start": 1793258081719,
+      "end": 1793258136398,
+      "pages": [
+        {
+          "t": 1793258081719,
+          "href": "about:blank",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258105432,
+          "href": "https://www.npmjs.com/package/@amitnarw/web-mcp",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258119127,
+          "href": "https://www.npmjs.com/package/@amitnarw/web-mcp",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258126553,
+          "href": "https://github.com/amitnarw/web-mcp/tree/main/docs",
+          "w": 960,
+          "h": 1280
+        }
+      ]
+    },
+    "panel-B6FA9A56": {
+      "events": 18,
+      "start": 1793258082736,
+      "end": 1793258136391,
+      "pages": [
+        {
+          "t": 1793258082768,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258102890,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258119129,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258129874,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        }
+      ]
+    }
+  },
+  "assetsLoaded": 54,
+  "assetsReferenced": 31
+}

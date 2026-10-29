@@ -1,0 +1,2627 @@
+{
+ "id": "form-01",
+ "prompt": "Go to https://www.selenium.dev/selenium/web/web-form.html, fill in the form with some sample data, and submit it.",
+ "viewport": {
+  "w": 960,
+  "h": 1280
+ },
+ "panel": {
+  "w": 420,
+  "h": 1280
+ },
+ "tabs": {
+  "page-6581D2AE": {
+   "start": 1793258155083,
+   "pages": [
+    {
+     "href": "about:blank",
+     "shown": 1793258155118
+    },
+    {
+     "href": "https://www.selenium.dev/selenium/web/web-form.html",
+     "shown": 1793258169872
+    },
+    {
+     "href": "https://www.selenium.dev/selenium/web/submitted-form.html?my-text=John+Doe&my-password=SamplePass123&my-textarea=This+is+some+sample+text+for+the+textarea+field.&my-readonly=Readonly+input&my-select=2&my-datalist=New+York&my-file=&my-check=on&my-check=on&my-radio=on&my-colors=%232e86de&my-date=10%2F29%2F2026&my-range=8&my-hidden=",
+     "shown": 1793258213851
+    }
+   ]
+  },
+  "panel-6C125B42": {
+   "start": 1793258156476,
+   "pages": [
+    {
+     "href": "http://127.0.0.1:3091/sidepanel.html",
+     "shown": 1793258156535
+    }
+   ]
+  }
+ },
+ "touches": [
+  {
+   "tab": "page-6581D2AE",
+   "k": "nav",
+   "t": 1793258169452,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "down",
+   "x": 239.99375915527344,
+   "y": 102.4749984741211,
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-text",
+   "t": 1793258175518,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "focus",
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-text",
+   "t": 1793258175521,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "click",
+   "x": 239,
+   "y": 102,
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-text",
+   "t": 1793258175523,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "len": 0,
+   "t": 1793258176044,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258176600,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "len": 1,
+   "t": 1793258176602,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258176606,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "len": 2,
+   "t": 1793258176607,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258176611,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "len": 3,
+   "t": 1793258176613,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258176620,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "len": 4,
+   "t": 1793258176623,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258176628,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "len": 5,
+   "t": 1793258176631,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258176637,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "len": 6,
+   "t": 1793258176638,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258176642,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "len": 7,
+   "t": 1793258176643,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258176649,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    84,
+    216,
+    38
+   ],
+   "len": 8,
+   "t": 1793258176650,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "down",
+   "x": 239.99375915527344,
+   "y": 172.07501220703125,
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-password",
+   "t": 1793258177515,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "focus",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-password",
+   "t": 1793258177517,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "click",
+   "x": 239,
+   "y": 172,
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-password",
+   "t": 1793258177521,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 0,
+   "t": 1793258178028,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178616,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 1,
+   "t": 1793258178617,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178627,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 2,
+   "t": 1793258178628,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178632,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 3,
+   "t": 1793258178633,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178636,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 4,
+   "t": 1793258178637,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178646,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 5,
+   "t": 1793258178647,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178652,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 6,
+   "t": 1793258178653,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178660,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 7,
+   "t": 1793258178661,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178664,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 8,
+   "t": 1793258178665,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178669,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 9,
+   "t": 1793258178670,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178675,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 10,
+   "t": 1793258178677,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178681,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 11,
+   "t": 1793258178682,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178685,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 12,
+   "t": 1793258178686,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258178692,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    153,
+    216,
+    38
+   ],
+   "len": 13,
+   "t": 1793258178693,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "down",
+   "x": 239.99375915527344,
+   "y": 265.6750183105469,
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "tag": "TEXTAREA",
+   "label": "my-textarea",
+   "t": 1793258179528,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "focus",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "tag": "TEXTAREA",
+   "label": "my-textarea",
+   "t": 1793258179529,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "click",
+   "x": 239,
+   "y": 265,
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "tag": "TEXTAREA",
+   "label": "my-textarea",
+   "t": 1793258179531,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 0,
+   "t": 1793258180039,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180614,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 1,
+   "t": 1793258180617,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180623,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 2,
+   "t": 1793258180624,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180630,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 3,
+   "t": 1793258180632,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180639,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 4,
+   "t": 1793258180640,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180646,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 5,
+   "t": 1793258180649,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180658,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 6,
+   "t": 1793258180660,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180667,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 7,
+   "t": 1793258180669,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180680,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 8,
+   "t": 1793258180685,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180700,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 9,
+   "t": 1793258180702,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180710,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 10,
+   "t": 1793258180711,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180716,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 11,
+   "t": 1793258180719,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180725,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 12,
+   "t": 1793258180726,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180729,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 13,
+   "t": 1793258180731,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180734,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 14,
+   "t": 1793258180735,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180739,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 15,
+   "t": 1793258180741,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180746,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 16,
+   "t": 1793258180748,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180750,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 17,
+   "t": 1793258180751,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180753,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 18,
+   "t": 1793258180754,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180757,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 19,
+   "t": 1793258180758,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180762,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 20,
+   "t": 1793258180764,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180767,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 21,
+   "t": 1793258180767,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180769,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 22,
+   "t": 1793258180770,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180773,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 23,
+   "t": 1793258180775,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180780,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 24,
+   "t": 1793258180782,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180784,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 25,
+   "t": 1793258180785,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180789,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 26,
+   "t": 1793258180791,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180796,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 27,
+   "t": 1793258180798,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180800,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 28,
+   "t": 1793258180800,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180802,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 29,
+   "t": 1793258180803,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180807,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 30,
+   "t": 1793258180808,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180812,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 31,
+   "t": 1793258180814,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180818,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 32,
+   "t": 1793258180819,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180823,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 33,
+   "t": 1793258180825,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180830,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 34,
+   "t": 1793258180832,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180834,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 35,
+   "t": 1793258180835,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180838,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 36,
+   "t": 1793258180840,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180844,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 37,
+   "t": 1793258180846,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180850,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 38,
+   "t": 1793258180851,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180853,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 39,
+   "t": 1793258180854,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180858,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 40,
+   "t": 1793258180859,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180862,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 41,
+   "t": 1793258180863,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180867,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 42,
+   "t": 1793258180868,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180872,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 43,
+   "t": 1793258180873,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180876,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 44,
+   "t": 1793258180878,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180881,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 45,
+   "t": 1793258180882,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180885,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 46,
+   "t": 1793258180886,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180890,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 47,
+   "t": 1793258180891,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258180896,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    132,
+    223,
+    216,
+    86
+   ],
+   "len": 48,
+   "t": 1793258180898,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "down",
+   "x": 479.98126220703125,
+   "y": 102.4749984741211,
+   "r": [
+    372,
+    84,
+    216,
+    38
+   ],
+   "tag": "SELECT",
+   "label": "my-select",
+   "t": 1793258181728,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "focus",
+   "r": [
+    372,
+    84,
+    216,
+    38
+   ],
+   "tag": "SELECT",
+   "label": "my-select",
+   "t": 1793258181729,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "click",
+   "x": 479,
+   "y": 102,
+   "r": [
+    372,
+    84,
+    216,
+    38
+   ],
+   "tag": "SELECT",
+   "label": "my-select",
+   "t": 1793258181749,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258182708,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    84,
+    216,
+    38
+   ],
+   "len": 1,
+   "t": 1793258182711,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258182715,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258182718,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "down",
+   "x": 479.98126220703125,
+   "y": 172.07501220703125,
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-datalist",
+   "t": 1793258183643,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "focus",
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-datalist",
+   "t": 1793258183645,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "click",
+   "x": 479,
+   "y": 172,
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-datalist",
+   "t": 1793258183647,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "len": 0,
+   "t": 1793258184168,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258184735,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "len": 1,
+   "t": 1793258184738,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258184745,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "len": 2,
+   "t": 1793258184747,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258184758,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "len": 3,
+   "t": 1793258184761,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258184775,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "len": 4,
+   "t": 1793258184776,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258184789,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "len": 5,
+   "t": 1793258184792,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258184805,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "len": 6,
+   "t": 1793258184807,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258184814,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "len": 7,
+   "t": 1793258184816,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258184826,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    153,
+    216,
+    38
+   ],
+   "len": 8,
+   "t": 1793258184829,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "down",
+   "x": 379.9875183105469,
+   "y": 304.4750061035156,
+   "r": [
+    372,
+    296,
+    16,
+    16
+   ],
+   "tag": "INPUT",
+   "label": "my-check",
+   "t": 1793258188915,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "focus",
+   "r": [
+    372,
+    296,
+    16,
+    16
+   ],
+   "tag": "INPUT",
+   "label": "my-check",
+   "t": 1793258188919,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "click",
+   "x": 379,
+   "y": 304,
+   "r": [
+    372,
+    296,
+    16,
+    16
+   ],
+   "tag": "INPUT",
+   "label": "my-check",
+   "t": 1793258188921,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    296,
+    16,
+    16
+   ],
+   "len": 2,
+   "t": 1793258188922,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "down",
+   "x": 379.9875183105469,
+   "y": 356.4750061035156,
+   "r": [
+    372,
+    348,
+    16,
+    16
+   ],
+   "tag": "INPUT",
+   "label": "my-radio",
+   "t": 1793258189972,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "focus",
+   "r": [
+    372,
+    348,
+    16,
+    16
+   ],
+   "tag": "INPUT",
+   "label": "my-radio",
+   "t": 1793258189974,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "click",
+   "x": 379,
+   "y": 356,
+   "r": [
+    372,
+    348,
+    16,
+    16
+   ],
+   "tag": "INPUT",
+   "label": "my-radio",
+   "t": 1793258189978,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    372,
+    348,
+    16,
+    16
+   ],
+   "len": 2,
+   "t": 1793258189980,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "down",
+   "x": 719.9688110351562,
+   "y": 173.6750030517578,
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-date",
+   "t": 1793258191010,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "focus",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-date",
+   "t": 1793258191081,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "click",
+   "x": 719,
+   "y": 173,
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "tag": "INPUT",
+   "label": "my-date",
+   "t": 1793258191086,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "len": 0,
+   "t": 1793258191659,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258192257,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "len": 1,
+   "t": 1793258192260,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258192291,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "len": 2,
+   "t": 1793258192292,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258192320,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "len": 3,
+   "t": 1793258192321,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258192349,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "len": 4,
+   "t": 1793258192353,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258192374,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "len": 5,
+   "t": 1793258192375,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258192407,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "len": 6,
+   "t": 1793258192409,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258192430,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "len": 7,
+   "t": 1793258192435,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258192457,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "len": 8,
+   "t": 1793258192458,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258192485,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "len": 9,
+   "t": 1793258192487,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "key",
+   "key": "char",
+   "t": 1793258192505,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    155,
+    216,
+    38
+   ],
+   "len": 10,
+   "t": 1793258192506,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    84,
+    48,
+    39
+   ],
+   "len": 7,
+   "t": 1793258203210,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "input",
+   "r": [
+    612,
+    224,
+    216,
+    24
+   ],
+   "len": 1,
+   "t": 1793258203211,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "down",
+   "x": 409.81256103515625,
+   "y": 405.2749938964844,
+   "r": [
+    372,
+    386,
+    76,
+    38
+   ],
+   "tag": "BUTTON",
+   "label": "Submit",
+   "t": 1793258213175,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "focus",
+   "r": [
+    372,
+    386,
+    76,
+    38
+   ],
+   "tag": "BUTTON",
+   "label": "Submit",
+   "t": 1793258213194,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "click",
+   "x": 409,
+   "y": 405,
+   "r": [
+    372,
+    386,
+    76,
+    38
+   ],
+   "tag": "BUTTON",
+   "label": "Submit",
+   "t": 1793258213196,
+   "url": "https://www.selenium.dev/selenium/web/web-form.html"
+  },
+  {
+   "tab": "page-6581D2AE",
+   "k": "nav",
+   "t": 1793258213483,
+   "url": "https://www.selenium.dev/selenium/web/submitted-form.html?my-text=John+Doe&my-password=SamplePass123&my-textarea=This+is+some+sample+text+for+the+textarea+field.&my-readonly=Readonly+input&my-select=2&my-datalist=New+York&my-file=&my-check=on&my-check=on&my-radio=on&my-colors=%232e86de&my-date=10%2F29%2F2026&my-range=8&my-hidden="
+  }
+ ],
+ "tools": [
+  {
+   "t": 1793258163155,
+   "name": "ToolSearch",
+   "input": {
+    "query": "select:mcp__web-mcp__browser_start,mcp__web-mcp__browser_navigate,mcp__web-mcp__browser_snapshot,mcp__web-mcp__browser_fill,mcp__web-mcp__browser_click,mcp__web-mcp__browser_type,mcp__web-mcp__browser_screenshot,mcp__web-mcp__browser_evaluate,mcp__web-mcp__browser_get_status,mcp__web-mcp__browser_done",
+    "max_results": 10
+   }
+  },
+  {
+   "t": 1793258165576,
+   "name": "browser_navigate",
+   "input": {
+    "url": "https://www.selenium.dev/selenium/web/web-form.html"
+   }
+  },
+  {
+   "t": 1793258171864,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258175150,
+   "name": "browser_fill",
+   "input": {
+    "uid": "1_5",
+    "value": "John Doe"
+   }
+  },
+  {
+   "t": 1793258175751,
+   "name": "browser_fill",
+   "input": {
+    "uid": "1_7",
+    "value": "SamplePass123"
+   }
+  },
+  {
+   "t": 1793258176416,
+   "name": "browser_fill",
+   "input": {
+    "uid": "1_9",
+    "value": "This is some sample text for the textarea field."
+   }
+  },
+  {
+   "t": 1793258176948,
+   "name": "browser_fill",
+   "input": {
+    "uid": "1_17",
+    "value": "Two"
+   }
+  },
+  {
+   "t": 1793258177282,
+   "name": "browser_fill",
+   "input": {
+    "uid": "1_23",
+    "value": "New York"
+   }
+  },
+  {
+   "t": 1793258188284,
+   "name": "browser_click",
+   "input": {
+    "uid": "1_28"
+   }
+  },
+  {
+   "t": 1793258188604,
+   "name": "browser_click",
+   "input": {
+    "uid": "1_31"
+   }
+  },
+  {
+   "t": 1793258188967,
+   "name": "browser_fill",
+   "input": {
+    "uid": "1_36",
+    "value": "10/29/2026"
+   }
+  },
+  {
+   "t": 1793258197335,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258203136,
+   "name": "browser_evaluate",
+   "input": {
+    "script": "const c = document.querySelector('input[name=\"my-colors\"]'); c.value = '#2e86de'; c.dispatchEvent(new Event('input', {bubbles:true})); c.dispatchEvent(new Event('change', {bubbles:true}));\nconst r = document.querySelector('input[name=\"my-range\"]'); r.value = '8'; r.dispatchEvent(new Event('input', {bubbles:true})); r.dispatchEvent(new Event('change', {bubbles:true}));\nJSON.stringify({color: c.value, range: r.value});"
+   }
+  },
+  {
+   "t": 1793258206198,
+   "name": "browser_evaluate",
+   "input": {
+    "script": "(() => { const c = document.querySelector('input[name=\"my-colors\"]'); const r = document.querySelector('input[name=\"my-range\"]'); return JSON.stringify({color: c && c.value, range: r && r.value}); })()"
+   }
+  },
+  {
+   "t": 1793258209517,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258212191,
+   "name": "browser_click",
+   "input": {
+    "uid": "1_32"
+   }
+  },
+  {
+   "t": 1793258216301,
+   "name": "browser_snapshot",
+   "input": {}
+  },
+  {
+   "t": 1793258219095,
+   "name": "browser_done",
+   "input": {}
+  }
+ ],
+ "says": [
+  {
+   "t": 1793258187880,
+   "text": "Now the checkbox, radio, date, and other fields."
+  },
+  {
+   "t": 1793258201616,
+   "text": "Most fields are filled in. The date picker popup is still open. Next I'll set the color picker and the range slider, which can't be typed into."
+  },
+  {
+   "t": 1793258211953,
+   "text": "The color is now #2e86de and the slider is at 8. Submitting the form."
+  },
+  {
+   "t": 1793258224513,
+   "text": "I filled in the form and submitted it. The confirmation page loaded with the heading **\"Form submitted\"** and the message **\"Received!\"**\n\n| Field | Value submitted |\n|---|---|\n| Text input | John Doe |\n| Password | SamplePass123 |\n| Textarea | This is some sample text for the textarea field. |\n| Dropdown (select) | Two |\n| Dropdown (datalist) | New York |\n| Checkboxes | Both checked |\n| Radio | \"Default radio\" selected |\n| Color picker | #2e86de |\n| Date picker | 10/29/2026 |\n| Range slider | 8 |\n\n- **Skipped fields:** I left the disabled and read-only fields as they were, and didn't upload a file, so the file field went through empty.\n- **Color and slider:** these can't be typed into, so I set them with a short script on the page.\n- **Password in the URL:** the form sends its data in the address of the confirmation page, so the password appears there as plain text. It's only sample data here, but don't enter a real password on this test page.\n\nI've released control of the browser, and it's still open on the confirmation page."
+  }
+ ],
+ "result": {
+  "t": 1793258224527,
+  "text": "I filled in the form and submitted it. The confirmation page loaded with the heading **\"Form submitted\"** and the message **\"Received!\"**\n\n| Field | Value submitted |\n|---|---|\n| Text input | John Doe |\n| Password | SamplePass123 |\n| Textarea | This is some sample text for the textarea field. |\n| Dropdown (select) | Two |\n| Dropdown (datalist) | New York |\n| Checkboxes | Both checked |\n| Radio | \"Default radio\" selected |\n| Color picker | #2e86de |\n| Date picker | 10/29/2026 |\n| Range slider | 8 |\n\n- **Skipped fields:** I left the disabled and read-only fields as they were, and didn't upload a file, so the file field went through empty.\n- **Color and slider:** these can't be typed into, so I set them with a short script on the page.\n- **Password in the URL:** the form sends its data in the address of the confirmation page, so the password appears there as plain text. It's only sample data here, but don't enter a real password on this test page.\n\nI've released control of the browser, and it's still open on the confirmation page."
+ },
+ "sidebar": [
+  {
+   "t": 1793258167131,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Starting task: AI Browser Task",
+   "count": 1
+  },
+  {
+   "t": 1793258169159,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Navigating to https://www.selenium.dev/selenium/web/web-form.html",
+   "count": 2
+  },
+  {
+   "t": 1793258171885,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 3
+  },
+  {
+   "t": 1793258176278,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (1_5): \"John Doe\"",
+   "count": 4
+  },
+  {
+   "t": 1793258178299,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (1_7): \"SamplePass123\"",
+   "count": 5
+  },
+  {
+   "t": 1793258180297,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (1_9): \"This is some sample text for t\"",
+   "count": 6
+  },
+  {
+   "t": 1793258182493,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (1_17): \"Two\"",
+   "count": 7
+  },
+  {
+   "t": 1793258184419,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (1_23): \"New York\"",
+   "count": 8
+  },
+  {
+   "t": 1793258188351,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (1_28)",
+   "count": 9
+  },
+  {
+   "t": 1793258189463,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (1_31)",
+   "count": 10
+  },
+  {
+   "t": 1793258191914,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Filling (1_36): \"10/29/2026\"",
+   "count": 10
+  },
+  {
+   "t": 1793258197398,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 10
+  },
+  {
+   "t": 1793258203191,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Executing JavaScript",
+   "count": 10
+  },
+  {
+   "t": 1793258209571,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 10
+  },
+  {
+   "t": 1793258212244,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Clicking element (1_32)",
+   "count": 10
+  },
+  {
+   "t": 1793258216448,
+   "active": true,
+   "task": "AI Browser Task",
+   "last": "Reading page content",
+   "count": 10
+  },
+  {
+   "t": 1793258219115,
+   "active": false,
+   "task": "",
+   "last": null,
+   "count": 0
+  }
+ ]
+}

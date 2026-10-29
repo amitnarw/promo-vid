@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "web-mcp": {
+      "type": "stdio",
+      "command": "C:\\Users\\Dell\\AppData\\Local\\Author Software\\nvm\\installs\\v22.23.2\\node.exe",
+      "args": [
+        "C:\\Users\\Dell\\Desktop\\web-mcp-promo\\capture\\web-mcp-launch.mjs",
+        "C:\\Users\\Dell\\AppData\\Local\\Author Software\\nvm\\installs\\v22.23.2\\node_modules\\@amitnarw\\web-mcp"
+      ]
+    }
+  }
+}

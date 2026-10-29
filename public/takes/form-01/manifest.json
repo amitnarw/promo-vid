@@ -1,0 +1,93 @@
+{
+  "id": "form-01",
+  "tabs": {
+    "page-6581D2AE": {
+      "events": 271,
+      "start": 1793258155083,
+      "end": 1793258219121,
+      "pages": [
+        {
+          "t": 1793258155083,
+          "href": "about:blank",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258169811,
+          "href": "https://www.selenium.dev/selenium/web/web-form.html",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258180040,
+          "href": "https://www.selenium.dev/selenium/web/web-form.html",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258190221,
+          "href": "https://www.selenium.dev/selenium/web/web-form.html",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258202416,
+          "href": "https://www.selenium.dev/selenium/web/web-form.html",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258212465,
+          "href": "https://www.selenium.dev/selenium/web/web-form.html",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "t": 1793258213702,
+          "href": "https://www.selenium.dev/selenium/web/submitted-form.html?my-text=John+Doe&my-password=SamplePass123&my-textarea=This+is+some+sample+text+for+the+textarea+field.&my-readonly=Readonly+input&my-select=2&my-datalist=New+York&my-file=&my-check=on&my-check=on&my-radio=on&my-colors=%232e86de&my-date=10%2F29%2F2026&my-range=8&my-hidden=",
+          "w": 960,
+          "h": 1280
+        }
+      ]
+    },
+    "panel-6C125B42": {
+      "events": 30,
+      "start": 1793258156476,
+      "end": 1793258219137,
+      "pages": [
+        {
+          "t": 1793258156506,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258167111,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258178303,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258188363,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        },
+        {
+          "t": 1793258219116,
+          "href": "http://127.0.0.1:3091/sidepanel.html",
+          "w": 420,
+          "h": 1280
+        }
+      ]
+    }
+  },
+  "assetsLoaded": 10,
+  "assetsReferenced": 6
+}

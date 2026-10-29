@@ -1,0 +1,34 @@
+{
+  "id": "checkout-01",
+  "prompt": "Go to saucedemo.com and test the checkout like a customer would: log in as standard_user with the password secret_sauce, add the Sauce Labs Backpack to the cart, check out with any test name and postcode, and tell me whether the order goes through.",
+  "model": "default",
+  "viewport": {
+    "w": 960,
+    "h": 1280
+  },
+  "panel": {
+    "w": 420,
+    "h": 1280
+  },
+  "colorScheme": "light",
+  "started": 1793257934680,
+  "ended": 1793258037661,
+  "agentExit": 0,
+  "tabs": [
+    {
+      "id": "080967F6",
+      "dir": "page-080967F6",
+      "domEvents": 301,
+      "refs": 86
+    },
+    {
+      "id": "0645E2D2",
+      "dir": "panel-0645E2D2",
+      "domEvents": 27,
+      "refs": 83
+    }
+  ],
+  "webMcpSessions": [
+    "session-2026-10-29T07-12-35-133Z"
+  ]
+}
