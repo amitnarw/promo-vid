@@ -72,10 +72,22 @@ function rewriteNode(n: Node, page: string) {
   for (const c of n.childNodes ?? []) rewriteNode(c, page);
 }
 
-type Ev = { type: number; timestamp: number; data: Record<string, any> };
+type Ev = { type: number; timestamp: number; data: Record<string, any>; promoNew?: boolean };
 const manifest: Record<string, unknown> = {};
 for (const tab of readdirSync(TAKE).filter((d) => existsSync(join(TAKE, d, "dom.jsonl")))) {
   const events: Ev[] = readFileSync(join(TAKE, tab, "dom.jsonl"), "utf8").split("\n").filter(Boolean).map((l) => JSON.parse(l)).sort((x: Ev, y: Ev) => x.timestamp - y.timestamp);
+  // Mark full snapshots that start a new recorder (a real navigation) apart from rrweb's
+  // periodic checkouts of the same page: node ids only carry over across checkouts, which
+  // is what the replay needs to know when an element was really inserted.
+  const navs = existsSync(join(TAKE, tab, "events.jsonl"))
+    ? readFileSync(join(TAKE, tab, "events.jsonl"), "utf8").split("\n").filter(Boolean).map((l) => JSON.parse(l)).filter((e) => e.k === "nav").map((e) => e.t as number)
+    : [];
+  let lastFull = -Infinity;
+  for (const e of events) {
+    if (e.type !== 2) continue;
+    e.promoNew = lastFull === -Infinity || navs.some((t) => t > lastFull && t <= e.timestamp);
+    lastFull = e.timestamp;
+  }
   let page = "about:blank";
   for (const e of events) {
     if (e.type === 4) page = e.data.href;

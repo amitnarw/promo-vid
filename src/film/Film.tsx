@@ -37,12 +37,15 @@ const B = { hook: 0, ask: bars(2), search: bars(4), form: bars(8), hero: bars(11
 export const FILM_FRAMES = B.end;
 
 // shared layout for the use-case beats
-const WIN = { x: 540, y: 1000, w: 960, h: 860 };
+const WIN = { x: 540, y: 980, w: 960, h: 790 };
 const win = (from: number, to: number, w = WIN): Win[] => [
   { f: from - 8, ...w, y: w.y + 40, o: 0 }, { f: from + 6, ...w, o: 1 }, { f: to - 6, ...w, o: 1 }, { f: to + 6, ...w, y: w.y - 30, o: 0 },
 ];
-const LENS = { x: 400, y: 1360, w: 600, h: 230 };
-const lensCam: Cam[] = [{ f: 0, x: 452, y: 1190, s: 1.9 }];
+// the lens floats on the stage just under the window: web-mcp's pill is frosted glass, so it must not sit over another page
+const LENS = { x: 400, y: 1478, w: 600, h: 230 };
+// web-mcp's own status pill and its tooltip, shown floating in the lenses
+const PILL = ".bp-action-bar-root, .bp-chat-bubble";
+const lensCam: Cam[] = [{ f: 0, x: 452, y: 1172, s: 1.9 }];
 const PERCH = { x: 950, y: 548, r: 70 };
 
 // ---- beat 1: the hook — real login typing (checkout take) ----
@@ -60,7 +63,8 @@ const wkLens: Win[] = [{ f: 228, ...LENS, o: 0 }, { f: 240, ...LENS, o: 1 }, { f
 const pillOrb = toScreen(lensCam, wkLens, 244, 376, 1207);
 
 // ---- beat 4: fill forms ----
-const fmTime: [number, number][] = [[B.form - 8, 20.6], [530, 29.6], [560, 37.4], [572, 57.8], [600, 59.4], [B.hero, 61.0]];
+// ~2.8x through the first fields (lens readable), then skip to Submit
+const fmTime: [number, number][] = [[B.form - 8, 20.6], [544, 28.0], [560, 37.4], [572, 57.8], [600, 59.4], [B.hero, 61.0]];
 const fmCams: Cam[] = [{ f: B.form - 8, x: 470, y: 250, s: 1.36 }, { f: 560, x: 470, y: 250, s: 1.36 }, { f: 574, x: 420, y: 260, s: 1.8 }, { f: 598, x: 360, y: 90, s: 2.4 }, { f: B.hero, x: 360, y: 90, s: 2.5 }];
 const fmWins = win(B.form, B.hero);
 const fmLens: Win[] = [{ f: B.form, ...LENS, o: 0 }, { f: B.form + 12, ...LENS, o: 1 }, { f: 590, ...LENS, o: 1 }, { f: 600, ...LENS, y: 1380, o: 0 }];
@@ -152,7 +156,7 @@ export const Film: React.FC = () => {
       {/* beat 1 */}
       {near(20, B.ask) && <>
         <ReplayWindow take={CO} tab={CO_TAB} frame={f} time={hookTime} cams={hookCams} wins={hookWins} clock={false} />
-        <ReplayWindow take={CO} tab={CO_TAB} frame={f} time={hookTime} cams={lensCam} wins={hookLens} clock={false} radius={26} style={{ boxShadow: "0 0 0 1.5px rgba(173,198,255,0.45), 0 0 60px rgba(0,122,255,0.35), 0 30px 80px rgba(0,0,0,0.7)" }} />
+        <ReplayWindow take={CO} tab={CO_TAB} frame={f} time={hookTime} cams={lensCam} wins={hookLens} clock={false} only={PILL} calmOnly />
       </>}
 
       {/* beat 2 */}
@@ -161,7 +165,7 @@ export const Film: React.FC = () => {
       {/* beat 3 */}
       {near(B.search - 15, B.form) && <>
         <ReplayWindow take={WK} tab={WK_TAB} frame={f} time={wkTime} cams={wkCams} wins={wkWins} requestAt={asked(WK)} url />
-        <ReplayWindow take={WK} tab={WK_TAB} frame={f} time={wkTime} cams={lensCam} wins={wkLens} clock={false} radius={26} style={{ boxShadow: "0 0 0 1.5px rgba(173,198,255,0.45), 0 0 60px rgba(0,122,255,0.35), 0 30px 80px rgba(0,0,0,0.7)" }} />
+        <ReplayWindow take={WK} tab={WK_TAB} frame={f} time={wkTime} cams={lensCam} wins={wkLens} clock={false} only={PILL} calmOnly />
       </>}
       <Label n="01" text="Look things up" from={B.search + 6} to={B.form - 8} y={232} />
       <AnswerCard text={WK.result?.text ?? ""} from={426} to={B.form - 6} x={90} y={1190} w={900} size={34} />
@@ -169,7 +173,7 @@ export const Film: React.FC = () => {
       {/* beat 4 */}
       {near(B.form - 8, B.hero) && <>
         <ReplayWindow take={FM} tab={FM_TAB} frame={f} time={fmTime} cams={fmCams} wins={fmWins} requestAt={asked(FM)} url />
-        <ReplayWindow take={FM} tab={FM_TAB} frame={f} time={fmTime} cams={lensCam} wins={fmLens} clock={false} radius={26} style={{ boxShadow: "0 0 0 1.5px rgba(173,198,255,0.45), 0 0 60px rgba(0,122,255,0.35), 0 30px 80px rgba(0,0,0,0.7)" }} />
+        <ReplayWindow take={FM} tab={FM_TAB} frame={f} time={fmTime} cams={lensCam} wins={fmLens} clock={false} only={PILL} calmOnly />
       </>}
       <Label n="02" text="Fill in forms" from={B.form + 4} to={B.hero - 8} y={232} />
 

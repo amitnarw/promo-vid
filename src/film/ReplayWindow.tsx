@@ -15,16 +15,34 @@ export type TakeTimeline = { id: string; prompt: string; viewport: { w: number; 
 export type Cam = { f: number; x: number; y: number; s: number };
 export type Win = { f: number; x: number; y: number; w: number; h: number; o: number };
 
+/** how many times real speed the take plays at around frame f (averaged over a few frames) */
+const speedAt = (time: [number, number][], f: number) => Math.abs(remap(time, f + 3) - remap(time, f - 3)) / (6 / 30);
+
 export const ReplayWindow: React.FC<{
   take: TakeTimeline; tab: string; frame: number; time: [number, number][]; cams: Cam[]; wins: Win[];
   clock?: boolean; url?: boolean; radius?: number; style?: CSSProperties; requestAt?: number;
-}> = ({ take, tab, frame, time, cams, wins, clock = true, url = false, radius = 30, style, requestAt }) => {
+  /** show only these elements, floating (no page, no card): web-mcp's own pill and tooltip */
+  only?: string;
+  /** fade out while the take is fast-forwarded, where quick real state changes would read as flicker */
+  calmOnly?: boolean;
+}> = ({ take, tab, frame, time, cams, wins, clock = true, url = false, radius = 30, style, requestAt, only, calmOnly = false }) => {
   const t0 = take.tabs[tab].start;
   const takeS = remap(time, frame);
   const wall = t0 + takeS * 1000;
   const cam = keyed(cams, frame);
   const win = keyed(wins, frame);
-  if (win.o <= 0.001) return null;
+  // fully visible up to 3x real speed, gone by 4.5x
+  const calm = calmOnly ? Math.max(0, Math.min(1, (4.5 - speedAt(time, frame)) / 1.5)) : 1;
+  if (win.o * calm <= 0.001) return null;
+  if (only) {
+    return (
+      <div style={{ position: "absolute", left: win.x - win.w / 2, top: win.y - win.h / 2, width: win.w, height: win.h, opacity: win.o * calm, overflow: "hidden", filter: "drop-shadow(0 18px 36px rgba(0,0,0,0.55)) drop-shadow(0 0 28px rgba(0,122,255,0.25))", ...style }}>
+        <div style={{ position: "absolute", left: win.w / 2 - cam.x * cam.s, top: win.h / 2 - cam.y * cam.s, transformOrigin: "0 0", transform: `scale(${cam.s})` }}>
+          <DomReplay take={take.id} tab={tab} wall={wall} width={take.viewport.w} height={take.viewport.h} only={only} />
+        </div>
+      </div>
+    );
+  }
   const page = [...take.tabs[tab].pages].reverse().find((p) => p.shown <= wall);
   const host = page && /^https?:/.test(page.href) ? new URL(page.href).hostname.replace(/^www\./, "") : "";
   // elapsed since the request was sent (agent start), in the real run

@@ -4,15 +4,19 @@
  * (web-mcp's pill, glow, tooltips) are seeked by hand to where they were at
  * that moment, so every rendered frame is deterministic. Because it is real
  * DOM, a camera can scale it as far as it likes and text stays sharp.
+ *
+ * only: a CSS selector; when set, everything else is hidden and the page is
+ * transparent (e.g. just web-mcp's pill and tooltip, floating).
  */
 import { useEffect, useRef, useState } from "react";
 import { cancelRender, continueRender, delayRender, staticFile } from "remotion";
 import { Replayer } from "rrweb";
 
-type Handle = { showAt: (wall: number) => Promise<void>; start: number };
+type Handle = { showAt: (wall: number) => Promise<void> };
+type Ev = { type: number; timestamp: number; data: any; promoNew?: boolean };
 
 // the take's frozen events, cached per tab so a render tab parses them once
-const cache = new Map<string, Promise<{ events: any[] }>>();
+const cache = new Map<string, Promise<{ events: Ev[] }>>();
 function loadTab(take: string, tab: string) {
   const key = `${take}/${tab}`;
   if (!cache.has(key)) {
@@ -27,6 +31,43 @@ function loadTab(take: string, tab: string) {
   return cache.get(key)!;
 }
 
+/**
+ * When each node was inserted, per recorder instance. rrweb's periodic checkouts
+ * re-snapshot the same nodes with the same ids, which must not count as new
+ * insertions (that would restart web-mcp's entrance animations every 10 s).
+ */
+function insertionTimes(events: Ev[]) {
+  const starts: number[] = [];
+  const added = new Map<string, number[]>();
+  const push = (inst: number, id: number, t: number, onlyIfNew: boolean) => {
+    const k = `${inst}:${id}`;
+    const list = added.get(k);
+    if (list) { if (!onlyIfNew) list.push(t); } else added.set(k, [t]);
+  };
+  const walk = (inst: number, n: any, t: number, onlyIfNew: boolean) => {
+    if (!n) return;
+    if (typeof n.id === "number") push(inst, n.id, t, onlyIfNew);
+    for (const c of n.childNodes ?? []) walk(inst, c, t, onlyIfNew);
+  };
+  for (const e of events) {
+    if (e.type === 2) {
+      if (e.promoNew || starts.length === 0) starts.push(e.timestamp);
+      walk(starts.length - 1, e.data.node, e.timestamp, true);
+    } else if (e.type === 3 && e.data.source === 0 && starts.length) {
+      for (const a of e.data.adds ?? []) walk(starts.length - 1, a.node, e.timestamp, false);
+    }
+  }
+  const instanceAt = (wall: number) => Math.max(0, starts.filter((s) => s <= wall).length - 1);
+  const bornAt = (inst: number, id: number, wall: number) => {
+    const list = added.get(`${inst}:${id}`);
+    if (!list) return undefined;
+    let best: number | undefined;
+    for (const t of list) if (t <= wall && (best === undefined || t > best)) best = t;
+    return best;
+  };
+  return { instanceAt, bornAt, startOf: (inst: number) => starts[inst] ?? events[0].timestamp };
+}
+
 function settle(doc: Document) {
   const images = [...doc.images].filter((i) => !i.complete);
   return Promise.race([
@@ -35,41 +76,43 @@ function settle(doc: Document) {
   ]);
 }
 
-function makeHandle(root: HTMLDivElement, events: any[]): Handle {
-  const replayer = new Replayer(events, { root, skipInactive: false, showWarning: false, showDebug: false, mouseTail: false, UNSAFE_replayCanvas: true, triggerFocus: false });
+function makeHandle(root: HTMLDivElement, events: Ev[], only?: string): Handle {
+  const replayer = new Replayer(events as any, { root, skipInactive: false, showWarning: false, showDebug: false, mouseTail: false, UNSAFE_replayCanvas: true, triggerFocus: false });
   // rrweb's iframe can't scroll; the live window had a scrollbar taking 15px of layout
   replayer.iframe.setAttribute("scrolling", "yes");
-  // when each replayed node last appeared or changed, rebuilt on every pause(t)
-  let changed = new WeakMap<Node, number>();
-  let snapAt = events[0].timestamp;
-  replayer.on("event-cast", (e: any) => {
-    const mirror = replayer.getMirror();
-    if (e.type === 2) { changed = new WeakMap(); snapAt = e.timestamp; }
-    if (e.type === 3 && e.data.source === 0) {
-      for (const a of e.data.adds) { const n = mirror.getNode(a.node.id); if (n) changed.set(n, e.timestamp); }
-      for (const a of e.data.attributes) { const n = mirror.getNode(a.id); if (n) changed.set(n, e.timestamp); }
-    }
-  });
+  if (only) replayer.iframe.setAttribute("allowtransparency", "true");
+  const born = insertionTimes(events);
   const start = events[0].timestamp;
   return {
-    start,
     async showAt(wall: number) {
       replayer.pause(Math.max(0, wall - start));
       const doc = replayer.iframe.contentDocument!;
       doc.documentElement.classList.remove("rrweb-paused");
+      if (only) {
+        const s = doc.createElement("style");
+        s.textContent = `:root{color-scheme:normal!important}html,body{background:transparent!important}
+          body *{visibility:hidden!important} ${only.split(",").map((x) => `${x.trim()},${x.trim()} *`).join(",")}{visibility:visible!important}
+          ::-webkit-scrollbar{width:15px;background:transparent}::-webkit-scrollbar-thumb{background:transparent}`;
+        doc.head.appendChild(s);
+      }
+      // seek each CSS animation to (wall - when its element, or an ancestor, was really inserted)
+      const mirror = replayer.getMirror();
+      const inst = born.instanceAt(wall);
       for (const anim of doc.getAnimations()) {
-        let el = (anim.effect as KeyframeEffect | null)?.target as Node | null;
-        let born = snapAt;
-        for (; el; el = el.parentNode) { const c = changed.get(el); if (c !== undefined && c > born) born = c; }
+        let at = born.startOf(inst);
+        for (let n = (anim.effect as KeyframeEffect | null)?.target as Node | null; n; n = n.parentNode) {
+          const b = born.bornAt(inst, mirror.getId(n), wall);
+          if (b !== undefined && b > at) at = b;
+        }
         anim.pause();
-        anim.currentTime = Math.max(0, wall - born);
+        anim.currentTime = Math.max(0, wall - at);
       }
       await settle(doc);
     },
   };
 }
 
-export const DomReplay: React.FC<{ take: string; tab: string; wall: number; width: number; height: number }> = ({ take, tab, wall, width, height }) => {
+export const DomReplay: React.FC<{ take: string; tab: string; wall: number; width: number; height: number; only?: string }> = ({ take, tab, wall, width, height, only }) => {
   const root = useRef<HTMLDivElement>(null);
   const [handle, setHandle] = useState<Handle | null>(null);
   const [loading] = useState(() => delayRender(`replay ${take}/${tab}`));
@@ -79,12 +122,12 @@ export const DomReplay: React.FC<{ take: string; tab: string; wall: number; widt
     loadTab(take, tab)
       .then(({ events }) => {
         if (!alive || !root.current) return;
-        setHandle(makeHandle(root.current, events));
+        setHandle(makeHandle(root.current, events, only));
         continueRender(loading);
       })
       .catch((e) => cancelRender(e));
     return () => { alive = false; };
-  }, [take, tab, loading]);
+  }, [take, tab, loading, only]);
 
   useEffect(() => {
     if (!handle) return;
@@ -93,9 +136,9 @@ export const DomReplay: React.FC<{ take: string; tab: string; wall: number; widt
   }, [handle, wall, take, tab]);
 
   return (
-    <div ref={root} className="dom-replay" style={{ width, height, position: "relative", overflow: "hidden", background: "#fff" }}>
+    <div ref={root} className="dom-replay" style={{ width, height, position: "relative", overflow: "hidden", background: only ? "transparent" : "#fff" }}>
       {/* rrweb draws its own pointer and wrapper chrome; the product's own click markers are what we show */}
-      <style>{`.dom-replay .replayer-mouse,.dom-replay .replayer-mouse-tail{display:none!important}.dom-replay .replayer-wrapper{position:relative}.dom-replay iframe{border:0;display:block}`}</style>
+      <style>{`.dom-replay .replayer-mouse,.dom-replay .replayer-mouse-tail{display:none!important}.dom-replay .replayer-wrapper{position:relative}.dom-replay iframe{border:0;display:block;background:transparent}`}</style>
     </div>
   );
 };
