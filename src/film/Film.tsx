@@ -55,9 +55,9 @@ const hookLens: Win[] = [{ f: 40, ...LENS, x: 540, y: 1420, o: 0 }, { f: 54, ...
 const wkTime: [number, number][] = [[B.search - 15, 34.2], [264, 35.0], [300, 35.75], [318, 36.75], [326, 44.3], [346, 44.7], [372, 46.4], [B.form, 50.6]];
 const wkCams: Cam[] = [{ f: 222, x: 480, y: 500, s: 1.95 }, { f: 318, x: 480, y: 520, s: 1.95 }, { f: 330, x: 480, y: 580, s: 1.6 }, { f: 352, x: 480, y: 580, s: 1.6 }, { f: 378, x: 480, y: 420, s: 1.12 }, { f: 410, x: 317, y: 700, s: 1.58 }, { f: B.form, x: 317, y: 698, s: 1.62 }];
 const wkWins = win(B.search, B.form);
-const wkLens: Win[] = [{ f: 222, ...LENS, o: 0 }, { f: 234, ...LENS, o: 1 }, { f: 364, ...LENS, o: 1 }, { f: 374, ...LENS, y: 1380, o: 0 }];
-// where the tiny orb sits inside web-mcp's pill, as seen through the lens (dive target)
-const pillOrb = toScreen(lensCam, wkLens, 240, 401, 1207);
+const wkLens: Win[] = [{ f: 228, ...LENS, o: 0 }, { f: 240, ...LENS, o: 1 }, { f: 364, ...LENS, o: 1 }, { f: 374, ...LENS, y: 1380, o: 0 }];
+// where the tiny orb sits inside web-mcp's pill ("reading page…" state), as seen through the lens: the dive target
+const pillOrb = toScreen(lensCam, wkLens, 244, 376, 1207);
 
 // ---- beat 4: fill forms ----
 const fmTime: [number, number][] = [[B.form - 8, 20.6], [530, 29.6], [560, 37.4], [572, 57.8], [600, 59.4], [B.hero, 61.0]];
@@ -92,7 +92,7 @@ const hostKeys: HostKey[] = [
   { f: 0, x: 540, y: 820, r: 250, o: 0 }, { f: 6, x: 540, y: 820, r: 250, o: 1 }, { f: 30, x: 540, y: 800, r: 250, o: 1 }, { f: 62, x: 540, y: 560, r: 150, o: 1 },
   { f: B.ask, x: 540, y: 560, r: 150, o: 1 }, { f: 150, x: 540, y: 600, r: 170, o: 1 }, { f: 204, x: 540, y: 600, r: 170, o: 1 },
   // the dive: into web-mcp's own pill
-  { f: 236, x: pillOrb.x, y: pillOrb.y, r: 20, o: 1 }, { f: 241, x: pillOrb.x, y: pillOrb.y, r: 18, o: 0 },
+  { f: 242, x: pillOrb.x, y: pillOrb.y, r: 20, o: 1 }, { f: 248, x: pillOrb.x, y: pillOrb.y, r: 18, o: 0 },
   // pops back out and perches on the window for the use cases
   { f: 392, x: pillOrb.x, y: pillOrb.y, r: 18, o: 0 }, { f: 396, x: pillOrb.x, y: pillOrb.y, r: 22, o: 1 }, { f: 424, ...PERCH, o: 1 },
   { f: B.privacy - 6, ...PERCH, o: 1 }, { f: B.privacy + 24, x: 540, y: 515, r: 92, o: 1 },
@@ -108,7 +108,7 @@ function target(f: number) {
   if (f < 34) return null;
   if (f < B.ask) return f > 78 && f < 94 ? toScreen(lensCam, hookLens, f, 401, 1207) : look.hook(f);
   if (f < 204) return { x: 200 + Math.min(1, (f - 134) / 60) * 640, y: 880 };
-  if (f < 241) return pillOrb;
+  if (f < 248) return pillOrb;
   if (f < B.form) return f > 420 ? { x: 540, y: 1250 } : look.wiki(f);
   if (f < B.hero) return look.form(f) ?? { x: 540, y: 900 };
   if (f < B.chores) {
@@ -156,7 +156,7 @@ export const Film: React.FC = () => {
       </>}
 
       {/* beat 2 */}
-      <RequestCard text={WK.prompt} from={B.ask + 8} to={B.search - 10} x={70} y={790} w={940} />
+      <RequestCard text={WK.prompt} from={B.ask + 8} to={B.search - 26} x={70} y={790} w={940} />
 
       {/* beat 3 */}
       {near(B.search - 15, B.form) && <>

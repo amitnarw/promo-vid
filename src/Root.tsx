@@ -1,5 +1,6 @@
 import { Composition } from "remotion";
 import { FILM_FRAMES, Film } from "./film/Film";
+import { Cover } from "./compositions/Cover";
 import { ReplayTest } from "./compositions/ReplayTest";
 import { StyleHook } from "./compositions/StyleHook";
 import { TakeFrame } from "./compositions/TakeFrame";
@@ -7,6 +8,7 @@ import { TakeFrame } from "./compositions/TakeFrame";
 export const Root: React.FC = () => (
   <>
     <Composition id="Film" component={Film} durationInFrames={FILM_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="Cover" component={Cover} durationInFrames={1} fps={30} width={1080} height={1920} />
     <Composition id="ReplayTest" component={ReplayTest} durationInFrames={285} fps={30} width={1080} height={1920} />
     <Composition id="StyleHook" component={StyleHook} durationInFrames={1} fps={30} width={1080} height={1920} />
     <Composition id="TakeFrame" component={TakeFrame} durationInFrames={1} fps={30} width={960} height={1280}
