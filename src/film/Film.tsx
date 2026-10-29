@@ -58,7 +58,7 @@ const hookLens: Win[] = [{ f: 40, ...LENS, x: 540, y: 1420, o: 0 }, { f: 54, ...
 const wkTime: [number, number][] = [[B.search - 15, 34.2], [264, 35.0], [300, 35.75], [318, 36.75], [326, 44.3], [346, 44.7], [372, 46.4], [B.form, 50.6]];
 const wkCams: Cam[] = [{ f: 222, x: 480, y: 500, s: 1.95 }, { f: 318, x: 480, y: 520, s: 1.95 }, { f: 330, x: 480, y: 580, s: 1.6 }, { f: 352, x: 480, y: 580, s: 1.6 }, { f: 378, x: 480, y: 420, s: 1.12 }, { f: 410, x: 317, y: 700, s: 1.58 }, { f: B.form, x: 317, y: 698, s: 1.62 }];
 const wkWins = win(B.search, B.form);
-const wkLens: Win[] = [{ f: 228, ...LENS, o: 0 }, { f: 240, ...LENS, o: 1 }, { f: 364, ...LENS, o: 1 }, { f: 374, ...LENS, y: 1380, o: 0 }];
+const wkLens: Win[] = [{ f: 228, ...LENS, o: 0 }, { f: 240, ...LENS, o: 1 }, { f: 360, ...LENS, o: 1 }, { f: 370, ...LENS, y: 1500, o: 0 }]; // leaves before the article loads (a new page re-injects the pill)
 // where the tiny orb sits inside web-mcp's pill ("reading page…" state), as seen through the lens: the dive target
 const pillOrb = toScreen(lensCam, wkLens, 244, 376, 1207);
 
@@ -67,7 +67,7 @@ const pillOrb = toScreen(lensCam, wkLens, 244, 376, 1207);
 const fmTime: [number, number][] = [[B.form - 8, 20.6], [544, 28.0], [560, 37.4], [572, 57.8], [600, 59.4], [B.hero, 61.0]];
 const fmCams: Cam[] = [{ f: B.form - 8, x: 470, y: 250, s: 1.36 }, { f: 560, x: 470, y: 250, s: 1.36 }, { f: 574, x: 420, y: 260, s: 1.8 }, { f: 598, x: 360, y: 90, s: 2.4 }, { f: B.hero, x: 360, y: 90, s: 2.5 }];
 const fmWins = win(B.form, B.hero);
-const fmLens: Win[] = [{ f: B.form, ...LENS, o: 0 }, { f: B.form + 12, ...LENS, o: 1 }, { f: 590, ...LENS, o: 1 }, { f: 600, ...LENS, y: 1380, o: 0 }];
+const fmLens: Win[] = [{ f: B.form, ...LENS, o: 0 }, { f: B.form + 12, ...LENS, o: 1 }, { f: 578, ...LENS, o: 1 }, { f: 588, ...LENS, y: 1500, o: 0 }]; // leaves before Submit loads the next page
 
 // ---- beat 5: the hero — grab the info (prices take) ----
 const prTime: [number, number][] = [[B.hero - 8, 13.0], [700, 15.0], [760, 17.6], [810, 21.5], [B.chores, 23.0]];
@@ -156,7 +156,7 @@ export const Film: React.FC = () => {
       {/* beat 1 */}
       {near(20, B.ask) && <>
         <ReplayWindow take={CO} tab={CO_TAB} frame={f} time={hookTime} cams={hookCams} wins={hookWins} clock={false} />
-        <ReplayWindow take={CO} tab={CO_TAB} frame={f} time={hookTime} cams={lensCam} wins={hookLens} clock={false} only={PILL} calmOnly />
+        <ReplayWindow take={CO} tab={CO_TAB} frame={f} time={hookTime} cams={lensCam} wins={hookLens} clock={false} only={PILL} holdSkips />
       </>}
 
       {/* beat 2 */}
@@ -165,7 +165,7 @@ export const Film: React.FC = () => {
       {/* beat 3 */}
       {near(B.search - 15, B.form) && <>
         <ReplayWindow take={WK} tab={WK_TAB} frame={f} time={wkTime} cams={wkCams} wins={wkWins} requestAt={asked(WK)} url />
-        <ReplayWindow take={WK} tab={WK_TAB} frame={f} time={wkTime} cams={lensCam} wins={wkLens} clock={false} only={PILL} calmOnly />
+        <ReplayWindow take={WK} tab={WK_TAB} frame={f} time={wkTime} cams={lensCam} wins={wkLens} clock={false} only={PILL} holdSkips />
       </>}
       <Label n="01" text="Look things up" from={B.search + 6} to={B.form - 8} y={232} />
       <AnswerCard text={WK.result?.text ?? ""} from={426} to={B.form - 6} x={90} y={1190} w={900} size={34} />
@@ -173,7 +173,7 @@ export const Film: React.FC = () => {
       {/* beat 4 */}
       {near(B.form - 8, B.hero) && <>
         <ReplayWindow take={FM} tab={FM_TAB} frame={f} time={fmTime} cams={fmCams} wins={fmWins} requestAt={asked(FM)} url />
-        <ReplayWindow take={FM} tab={FM_TAB} frame={f} time={fmTime} cams={lensCam} wins={fmLens} clock={false} only={PILL} calmOnly />
+        <ReplayWindow take={FM} tab={FM_TAB} frame={f} time={fmTime} cams={lensCam} wins={fmLens} clock={false} only={PILL} holdSkips />
       </>}
       <Label n="02" text="Fill in forms" from={B.form + 4} to={B.hero - 8} y={232} />
 
